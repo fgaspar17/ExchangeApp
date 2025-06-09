@@ -1,0 +1,51 @@
+﻿@page "/exchange-rate"
+@inject IHttpClientFactory _httpClientFactory
+@inject IConfiguration configuration
+
+<PageTitle>Exchange</PageTitle>
+
+<h1>Exchange Rate</h1>
+
+@if (!string.IsNullOrWhiteSpace(errorMessage))
+{
+    <div class="h2">@errorMessage</div>
+}
+else if (exchangeRate is null)
+{
+    <div class="h2">There is no exchange data.</div>
+}
+else
+{
+    <div class="card">
+        <div class="card-body">
+            <h5>@exchangeRate.RealtimeCurrencyExchangeRate.FromCurrencyName (@exchangeRate.RealtimeCurrencyExchangeRate.FromCurrencyCode)</h5>
+            <p>→ @exchangeRate.RealtimeCurrencyExchangeRate.ToCurrencyName (@exchangeRate.RealtimeCurrencyExchangeRate.ToCurrencyCode)</p>
+            <p><strong>Rate:</strong> @exchangeRate.RealtimeCurrencyExchangeRate.ExchangeRate</p>
+            <p><strong>Last Updated:</strong> @exchangeRate.RealtimeCurrencyExchangeRate.LastRefreshed (@exchangeRate.RealtimeCurrencyExchangeRate.TimeZone)</p>
+        </div>
+    </div>
+}
+
+@code {
+    private ExchangeRateModel exchangeRate;
+    string errorMessage;
+
+    protected override async Task OnInitializedAsync()
+    {
+        string apiKey = configuration.GetSection("AlphaVantageApiKey").Get<string>()!;
+        var path = $"query?function=CURRENCY_EXCHANGE_RATE&from_currency=USD&to_currency=JPY&apikey={apiKey}";
+        var request = new HttpRequestMessage(HttpMethod.Get, path);
+        var client = _httpClientFactory.CreateClient("alpha-vantage");
+        var response = await client.SendAsync(request);
+
+        if (response.IsSuccessStatusCode)
+        {
+            exchangeRate = await response.Content.ReadFromJsonAsync<ExchangeRateModel>();
+            errorMessage = null;
+        }
+        else
+        {
+            errorMessage = $"There was an error fetching exchange rate: {response.ReasonPhrase}";
+        }
+    }
+}
