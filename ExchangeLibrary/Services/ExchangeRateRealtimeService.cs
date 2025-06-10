@@ -11,6 +11,6 @@ public class ExchangeRateRealtimeService : IExchangeRateRealtimeService
         var request = new HttpRequestMessage(HttpMethod.Get, path);
         var response = await client.SendAsync(request);
 
-        return await response.Content.ReadFromJsonAsync<ExchangeRateRealtimeResponse>();
+        return await response.Content.ReadFromJsonAsync<ExchangeRateRealtimeResponse>()!;
     }
 }

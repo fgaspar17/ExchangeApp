@@ -1,5 +1,6 @@
 ﻿@inject IHttpClientFactory _httpClientFactory
 @inject IConfiguration configuration
+@inject IExchangeRateRealtimeService realtimeService
 
 <div class="card mx-auto" style="width: 18rem;">
     <div class="card-body">
@@ -30,6 +31,8 @@
             </div>
         </EditForm>
     </div>
+</div>
+<div class="card mx-auto mt-1" style="width: 18rem;@(resultVisible ? "display:block" : "display:none")">
     @if (!string.IsNullOrWhiteSpace(errorMessage))
     {
         <div class="h2">@errorMessage</div>
@@ -60,39 +63,30 @@
         new DisplayCurrency { Id = "JPY", Name = "Japanese Yen" }
     };
     private ExchangeRateRealtimeResponse exchangeRate;
-    string errorMessage;
+    private string errorMessage;
+    private string apiKey;
+    private HttpClient client;
+    private bool resultVisible = false;
 
-    protected override void OnInitialized() => Model ??= new();
+    protected override async Task OnInitializedAsync()
+    {
+        Model ??= new();
+        apiKey = configuration.GetSection("AlphaVantageApiKey").Get<string>()!;
+        client = _httpClientFactory.CreateClient("alpha-vantage");
+    }
 
     private async Task Submit()
     {
-        string apiKey = configuration.GetSection("AlphaVantageApiKey").Get<string>()!;
-        var path = $"query?function=CURRENCY_EXCHANGE_RATE&from_currency={Model.FromCurrency}&to_currency={Model.ToCurrency}&apikey={apiKey}";
-        var request = new HttpRequestMessage(HttpMethod.Get, path);
-        var client = _httpClientFactory.CreateClient("alpha-vantage");
-        var response = await client.SendAsync(request);
-
-        if (response.IsSuccessStatusCode)
+        try
         {
-            exchangeRate = await response.Content.ReadFromJsonAsync<ExchangeRateRealtimeResponse>();
-            errorMessage = null;
+            exchangeRate = await realtimeService.GetExchangeRateRealtime(client, apiKey, Model.FromCurrency, Model.ToCurrency);
+            errorMessage = string.Empty;
         }
-        else
+        catch (Exception ex)
         {
-            errorMessage = $"There was an error fetching exchange rate: {response.ReasonPhrase}";
+            errorMessage = $"There was an error: {ex.Message}";
         }
-    }
 
-    public class ExchangeCurrentForm
-    {
-        public string? Id { get; set; }
-        public string? FromCurrency { get; set; }
-        public string? ToCurrency { get; set; }
-    }
-
-    public class DisplayCurrency
-    {
-        public string? Id { get; set; }
-        public string? Name { get; set; }
+        resultVisible = true;
     }
 }
