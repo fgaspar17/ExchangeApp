@@ -1,16 +1,15 @@
+﻿@inject IHttpClientFactory _httpClientFactory
+@inject IConfiguration configuration
+
 <div class="card mx-auto" style="width: 18rem;">
     <div class="card-body">
-        <h5 class="card-title">Exchange</h5>
-        <EditForm Model="Model" OnSubmit="Submit" FormName="Starship1">
+        <h5 class="card-title">Current Exchange</h5>
+        <EditForm Model="Model" OnSubmit="Submit" FormName="ExchangeForm">
             <div>
-                <label>
-                    Identifier:
-                    <InputText @bind-Value="Model!.Id" />
-                </label>
                 <label>
                     From Currency:
                     <InputSelect class="form-select" @bind-Value="Model.FromCurrency">
-                        @foreach (Display display in displays)
+                        @foreach (DisplayCurrency display in displays)
                         {
                             <option value="@display.Id">@display.Name (ID: @display.Id)</option>
                         }
@@ -19,7 +18,7 @@
                 <label>
                     To Currency:
                     <InputSelect class="form-select" @bind-Value="Model.ToCurrency">
-                        @foreach (Display display in displays)
+                        @foreach (DisplayCurrency display in displays)
                         {
                             <option value="@display.Id">@display.Name (ID: @display.Id)</option>
                         }
@@ -31,29 +30,67 @@
             </div>
         </EditForm>
     </div>
+    @if (!string.IsNullOrWhiteSpace(errorMessage))
+    {
+        <div class="h2">@errorMessage</div>
+    }
+    else if (exchangeRate is null)
+    {
+        <div class="h2">There is no exchange data.</div>
+    }
+    else
+    {
+        <div class="card">
+            <div class="card-body">
+                <h5>@exchangeRate.RealtimeCurrencyExchangeRate.FromCurrencyName (@exchangeRate.RealtimeCurrencyExchangeRate.FromCurrencyCode)</h5>
+                <p>→ @exchangeRate.RealtimeCurrencyExchangeRate.ToCurrencyName (@exchangeRate.RealtimeCurrencyExchangeRate.ToCurrencyCode)</p>
+                <p><strong>Rate:</strong> @exchangeRate.RealtimeCurrencyExchangeRate.ExchangeRate</p>
+                <p><strong>Last Updated:</strong> @exchangeRate.RealtimeCurrencyExchangeRate.LastRefreshed (@exchangeRate.RealtimeCurrencyExchangeRate.TimeZone)</p>
+            </div>
+        </div>
+    }
 </div>
 @code {
     [SupplyParameterFromForm]
-    private ExchangeModel? Model { get; set; }
-    private readonly Display[] displays = new[]
+    private ExchangeCurrentForm? Model { get; set; }
+    private readonly DisplayCurrency[] displays = new[]
     {
-        new Display { Id = "USD", Name = "US Dollar" },
-        new Display { Id = "EUR", Name = "Euro" },
-        new Display { Id = "JPY", Name = "Japanese Yen" }
+        new DisplayCurrency { Id = "USD", Name = "US Dollar" },
+        new DisplayCurrency { Id = "EUR", Name = "Euro" },
+        new DisplayCurrency { Id = "JPY", Name = "Japanese Yen" }
     };
+    private ExchangeRateRealtimeResponse exchangeRate;
+    string errorMessage;
 
     protected override void OnInitialized() => Model ??= new();
 
-    private void Submit() => Console.Write(Model.FromCurrency);
+    private async Task Submit()
+    {
+        string apiKey = configuration.GetSection("AlphaVantageApiKey").Get<string>()!;
+        var path = $"query?function=CURRENCY_EXCHANGE_RATE&from_currency={Model.FromCurrency}&to_currency={Model.ToCurrency}&apikey={apiKey}";
+        var request = new HttpRequestMessage(HttpMethod.Get, path);
+        var client = _httpClientFactory.CreateClient("alpha-vantage");
+        var response = await client.SendAsync(request);
 
-    public class ExchangeModel
+        if (response.IsSuccessStatusCode)
+        {
+            exchangeRate = await response.Content.ReadFromJsonAsync<ExchangeRateRealtimeResponse>();
+            errorMessage = null;
+        }
+        else
+        {
+            errorMessage = $"There was an error fetching exchange rate: {response.ReasonPhrase}";
+        }
+    }
+
+    public class ExchangeCurrentForm
     {
         public string? Id { get; set; }
         public string? FromCurrency { get; set; }
         public string? ToCurrency { get; set; }
     }
 
-    public class Display
+    public class DisplayCurrency
     {
         public string? Id { get; set; }
         public string? Name { get; set; }

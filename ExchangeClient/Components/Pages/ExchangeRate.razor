@@ -27,7 +27,7 @@ else
 }
 
 @code {
-    private ExchangeRateModel exchangeRate;
+    private ExchangeRateRealtimeResponse exchangeRate;
     string errorMessage;
 
     protected override async Task OnInitializedAsync()
@@ -40,7 +40,7 @@ else
 
         if (response.IsSuccessStatusCode)
         {
-            exchangeRate = await response.Content.ReadFromJsonAsync<ExchangeRateModel>();
+            exchangeRate = await response.Content.ReadFromJsonAsync<ExchangeRateRealtimeResponse>();
             errorMessage = null;
         }
         else

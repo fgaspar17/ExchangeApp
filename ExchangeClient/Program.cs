@@ -1,4 +1,5 @@
 using ExchangeClient.Components;
+using ExchangeLibrary.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,6 +14,8 @@ builder.Services.AddHttpClient("alpha-vantage", c =>
 });
 
 builder.Configuration.GetSection("AlphaVantageApiKey");
+
+builder.Services.AddTransient<IExchangeRateRealtimeService, ExchangeRateRealtimeService>();
 
 var app = builder.Build();
 

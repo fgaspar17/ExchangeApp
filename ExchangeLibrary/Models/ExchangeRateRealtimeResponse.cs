@@ -2,7 +2,7 @@
 
 namespace ExchangeLibrary.Models;
 
-public class ExchangeRateModel
+public class ExchangeRateRealtimeResponse
 {
     [JsonPropertyName("Realtime Currency Exchange Rate")]
     public RealtimeCurrencyExchangeRate RealtimeCurrencyExchangeRate { get; set; }
