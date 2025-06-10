@@ -1,5 +1,4 @@
-﻿@inject IHttpClientFactory _httpClientFactory
-@inject IConfiguration configuration
+﻿@inject IConfiguration configuration
 @inject IExchangeRateRealtimeService realtimeService
 
 <div class="card mx-auto" style="width: 18rem;">
@@ -27,7 +26,7 @@
                 </label>
             </div>
             <div>
-                <button type="submit">Submit</button>
+                <button type="submit" class="btn btn-primary mt-2">Submit</button>
             </div>
         </EditForm>
     </div>
@@ -65,21 +64,19 @@
     private ExchangeRateRealtimeResponse exchangeRate;
     private string errorMessage;
     private string apiKey;
-    private HttpClient client;
     private bool resultVisible = false;
 
     protected override async Task OnInitializedAsync()
     {
         Model ??= new();
         apiKey = configuration.GetSection("AlphaVantageApiKey").Get<string>()!;
-        client = _httpClientFactory.CreateClient("alpha-vantage");
     }
 
     private async Task Submit()
     {
         try
         {
-            exchangeRate = await realtimeService.GetExchangeRateRealtime(client, apiKey, Model.FromCurrency, Model.ToCurrency);
+            exchangeRate = await realtimeService.GetExchangeRateRealtime(apiKey, Model.FromCurrency, Model.ToCurrency);
             errorMessage = string.Empty;
         }
         catch (Exception ex)

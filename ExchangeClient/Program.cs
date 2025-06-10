@@ -12,10 +12,12 @@ builder.Services.AddHttpClient("alpha-vantage", c =>
 {
     c.BaseAddress = new Uri(builder.Configuration.GetValue<string>("ExchangeAPI"));
 });
+builder.Services.AddHttpClient<IExchangeRateRealtimeService, ExchangeRateRealtimeService>(c =>
+{
+    c.BaseAddress = new Uri(builder.Configuration.GetValue<string>("ExchangeAPI"));
+});
 
 builder.Configuration.GetSection("AlphaVantageApiKey");
-
-builder.Services.AddTransient<IExchangeRateRealtimeService, ExchangeRateRealtimeService>();
 
 var app = builder.Build();
 
