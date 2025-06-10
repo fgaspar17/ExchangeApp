@@ -1,0 +1,61 @@
+<div class="card mx-auto" style="width: 18rem;">
+    <div class="card-body">
+        <h5 class="card-title">Exchange</h5>
+        <EditForm Model="Model" OnSubmit="Submit" FormName="Starship1">
+            <div>
+                <label>
+                    Identifier:
+                    <InputText @bind-Value="Model!.Id" />
+                </label>
+                <label>
+                    From Currency:
+                    <InputSelect class="form-select" @bind-Value="Model.FromCurrency">
+                        @foreach (Display display in displays)
+                        {
+                            <option value="@display.Id">@display.Name (ID: @display.Id)</option>
+                        }
+                    </InputSelect>
+                </label>
+                <label>
+                    To Currency:
+                    <InputSelect class="form-select" @bind-Value="Model.ToCurrency">
+                        @foreach (Display display in displays)
+                        {
+                            <option value="@display.Id">@display.Name (ID: @display.Id)</option>
+                        }
+                    </InputSelect>
+                </label>
+            </div>
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+        </EditForm>
+    </div>
+</div>
+@code {
+    [SupplyParameterFromForm]
+    private ExchangeModel? Model { get; set; }
+    private readonly Display[] displays = new[]
+    {
+        new Display { Id = "USD", Name = "US Dollar" },
+        new Display { Id = "EUR", Name = "Euro" },
+        new Display { Id = "JPY", Name = "Japanese Yen" }
+    };
+
+    protected override void OnInitialized() => Model ??= new();
+
+    private void Submit() => Console.Write(Model.FromCurrency);
+
+    public class ExchangeModel
+    {
+        public string? Id { get; set; }
+        public string? FromCurrency { get; set; }
+        public string? ToCurrency { get; set; }
+    }
+
+    public class Display
+    {
+        public string? Id { get; set; }
+        public string? Name { get; set; }
+    }
+}
