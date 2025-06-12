@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExchangeLibrary", "Exchange
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExchangeClient", "ExchangeClient\ExchangeClient.csproj", "{89D4B43E-B8B9-4CD0-859C-8501C3E38E37}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExchangeLibrary.Tests", "ExchangeLibrary.Tests\ExchangeLibrary.Tests.csproj", "{3FE378BD-205C-4996-AA03-EACA237FD408}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{89D4B43E-B8B9-4CD0-859C-8501C3E38E37}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89D4B43E-B8B9-4CD0-859C-8501C3E38E37}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89D4B43E-B8B9-4CD0-859C-8501C3E38E37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FE378BD-205C-4996-AA03-EACA237FD408}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FE378BD-205C-4996-AA03-EACA237FD408}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FE378BD-205C-4996-AA03-EACA237FD408}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FE378BD-205C-4996-AA03-EACA237FD408}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

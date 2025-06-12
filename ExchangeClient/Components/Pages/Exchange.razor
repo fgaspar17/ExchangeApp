@@ -9,9 +9,9 @@
                 <label>
                     From Currency:
                     <InputSelect class="form-select" @bind-Value="Model.FromCurrency">
-                        @foreach (DisplayCurrency display in displays)
+                        @foreach (Currency display in displays)
                         {
-                            <option value="@display.Id">@display.Name (ID: @display.Id)</option>
+                            <option value="@display.Code">@display.Name (ID: @display.Code)</option>
                         }
                     </InputSelect>
                 </label>
@@ -20,9 +20,9 @@
                 <label>
                     To Currency:
                     <InputSelect class="form-select" @bind-Value="Model.ToCurrency">
-                        @foreach (DisplayCurrency display in displays)
+                        @foreach (Currency display in displays)
                         {
-                            <option value="@display.Id">@display.Name (ID: @display.Id)</option>
+                            <option value="@display.Code">@display.Name (ID: @display.Code)</option>
                         }
                     </InputSelect>
                 </label>
@@ -57,12 +57,7 @@
 @code {
     [SupplyParameterFromForm]
     private ExchangeCurrentForm? Model { get; set; }
-    private readonly DisplayCurrency[] displays = new[]
-    {
-        new DisplayCurrency { Id = "USD", Name = "US Dollar" },
-        new DisplayCurrency { Id = "EUR", Name = "Euro" },
-        new DisplayCurrency { Id = "JPY", Name = "Japanese Yen" }
-    };
+    private readonly Currency[] displays = CurrencyData.Currencies;
     private ExchangeRateRealtimeResponse exchangeRate;
     private string errorMessage;
     private string apiKey;

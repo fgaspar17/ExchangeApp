@@ -1,5 +1,7 @@
+using System.Net.Http.Headers;
 using ExchangeClient.Components;
 using ExchangeLibrary.Services;
+using Microsoft.Extensions.Caching.Memory;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,17 +9,33 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
+builder.Services.AddMemoryCache();
+
+builder.Configuration.GetSection("AlphaVantageApiKey");
+
 builder.Services.AddHttpClient();
 builder.Services.AddHttpClient("alpha-vantage", c =>
 {
     c.BaseAddress = new Uri(builder.Configuration.GetValue<string>("ExchangeAPI"));
+    c.DefaultRequestHeaders
+      .Accept
+      .Add(new MediaTypeWithQualityHeaderValue("application/json"));
 });
-builder.Services.AddHttpClient<IExchangeRateRealtimeService, ExchangeRateRealtimeService>(c =>
+builder.Services.AddHttpClient<ExchangeRateRealtimeService>(c =>
 {
     c.BaseAddress = new Uri(builder.Configuration.GetValue<string>("ExchangeAPI"));
+    c.DefaultRequestHeaders
+      .Accept
+      .Add(new MediaTypeWithQualityHeaderValue("application/json"));
 });
 
-builder.Configuration.GetSection("AlphaVantageApiKey");
+builder.Services.AddTransient<IExchangeRateRealtimeService>(sp =>
+{
+    var inner = sp.GetRequiredService<ExchangeRateRealtimeService>();
+    var cache = sp.GetRequiredService<IMemoryCache>();
+    return new ExchangeRateRealtimeServiceCached(cache, inner);
+});
+
 
 var app = builder.Build();
 
