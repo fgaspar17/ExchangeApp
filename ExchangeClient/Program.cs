@@ -9,7 +9,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
-builder.Services.AddMemoryCache();
+builder.Services.AddMemoryCache(options =>
+options.SizeLimit = 1_000);
 
 builder.Configuration.GetSection("AlphaVantageApiKey");
 
