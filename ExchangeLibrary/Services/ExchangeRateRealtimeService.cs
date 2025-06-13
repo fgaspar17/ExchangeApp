@@ -12,13 +12,13 @@ public class ExchangeRateRealtimeService : IExchangeRateRealtimeService
         _client = client;
     }
 
-    public async Task<ExchangeRateRealtimeResponse?> GetExchangeRateRealtime(string apiKey, string fromCurrency, string toCurrency)
+    public async Task<ExchangeRateRealtimeResponse?> GetExchangeRateRealtime(string apiKey, 
+        string fromCurrency, string toCurrency, CancellationToken ct)
     {
-        await Task.Delay(TimeSpan.FromSeconds(30));
         var path = $"query?function=CURRENCY_EXCHANGE_RATE&from_currency={fromCurrency}&to_currency={toCurrency}&apikey={apiKey}";
         var request = new HttpRequestMessage(HttpMethod.Get, path);
-        var response = await _client.SendAsync(request);
+        var response = await _client.SendAsync(request, ct);
 
-        return await response.Content.ReadFromJsonAsync<ExchangeRateRealtimeResponse>()!;
+        return await response.Content.ReadFromJsonAsync<ExchangeRateRealtimeResponse>(ct)!;
     }
 }

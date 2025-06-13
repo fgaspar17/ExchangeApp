@@ -1,5 +1,6 @@
 ﻿@inject IConfiguration configuration
 @inject IExchangeRateRealtimeService realtimeService
+@implements IDisposable
 
 <div class="card mx-auto" style="width: 18rem;">
     <div class="card-body">
@@ -62,6 +63,7 @@
     private string errorMessage;
     private string apiKey;
     private bool resultVisible = false;
+    private CancellationTokenSource _cts;
 
     protected override async Task OnInitializedAsync()
     {
@@ -71,9 +73,11 @@
 
     private async Task Submit()
     {
+        _cts?.Cancel();
+        _cts = new CancellationTokenSource();
         try
         {
-            exchangeRate = await realtimeService.GetExchangeRateRealtime(apiKey, Model.FromCurrency, Model.ToCurrency);
+            exchangeRate = await realtimeService.GetExchangeRateRealtime(apiKey, Model.FromCurrency, Model.ToCurrency, _cts.Token);
             errorMessage = string.Empty;
         }
         catch (Exception ex)
@@ -82,5 +86,11 @@
         }
 
         resultVisible = true;
+    }
+
+    void IDisposable.Dispose()
+    {
+        _cts?.Cancel();
+        _cts?.Dispose();
     }
 }

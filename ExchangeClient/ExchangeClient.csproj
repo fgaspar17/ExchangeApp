@@ -8,12 +8,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Polly.Extensions" Version="8.6.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\ExchangeLibrary\ExchangeLibrary.csproj" />
   </ItemGroup>
 
   <ItemGroup>
     <Content Update="wwwroot\lib\bootstrap\dist\js\bootstrap.min.js">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
 
