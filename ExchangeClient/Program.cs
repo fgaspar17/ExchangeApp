@@ -7,22 +7,46 @@ using Polly.CircuitBreaker;
 using Polly.Registry;
 using Polly.Retry;
 using Polly.Timeout;
+using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Host.UseSerilog((context, configuration) =>
+{
+    configuration.ReadFrom.Configuration(context.Configuration);
+});
 
 // Add services to the container.
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
-builder.Services.AddResiliencePipeline("default", x =>
-    x
+builder.Services.AddResiliencePipeline("default", (pipelineBuilder, context) =>
+{
+    var logger = context.ServiceProvider.GetRequiredService<ILogger<Program>>();
+
+    pipelineBuilder
     .AddCircuitBreaker(new CircuitBreakerStrategyOptions
     {
         FailureRatio = 0.5, // 50% failure threshold
         SamplingDuration = TimeSpan.FromSeconds(60),
         MinimumThroughput = 2, // Minimum of calls
         BreakDuration = TimeSpan.FromSeconds(15), // Break for 15 seconds after threshold is reached
-        ShouldHandle = new PredicateBuilder().Handle<Exception>()
+        ShouldHandle = new PredicateBuilder().Handle<Exception>(),
+        OnOpened = args =>
+        {
+            logger.LogWarning("Circuit opened due to failures.");
+            return default;
+        },
+        OnClosed = args =>
+        {
+            logger.LogInformation("Circuit closed, calls will proceed.");
+            return default;
+        },
+        OnHalfOpened = args =>
+        {
+            logger.LogInformation("Circuit half-open, testing connection.");
+            return default;
+        }
     })
     .AddRetry(new RetryStrategyOptions()
     {
@@ -30,12 +54,25 @@ builder.Services.AddResiliencePipeline("default", x =>
         BackoffType = DelayBackoffType.Exponential,
         UseJitter = true,
         Delay = TimeSpan.FromSeconds(2),
-        ShouldHandle = new PredicateBuilder().Handle<Exception>()
+        ShouldHandle = new PredicateBuilder().Handle<Exception>(),
+        OnRetry = args =>
+        {
+            logger.LogWarning("Retrying {Attempt} due to {Exception}",
+                args.AttemptNumber, args.Outcome.Exception?.Message);
+            return default;
+        }
     })
     .AddTimeout(new TimeoutStrategyOptions
     {
-        Timeout = TimeSpan.FromSeconds(5)
-    }));
+        Timeout = TimeSpan.FromSeconds(5),
+        OnTimeout = args =>
+        {
+            logger.LogWarning("Timeout: {timeout}",
+                args.Timeout);
+            return default;
+        }
+    });
+});
 
 builder.Services.AddMemoryCache(options =>
 options.SizeLimit = 1_000);
@@ -62,7 +99,8 @@ builder.Services.AddTransient<ExchangeRateRealtimeServiceCached>(sp =>
 {
     var inner = sp.GetRequiredService<ExchangeRateRealtimeService>();
     var cache = sp.GetRequiredService<IMemoryCache>();
-    return new ExchangeRateRealtimeServiceCached(cache, inner);
+    var logger = sp.GetRequiredService<ILogger<ExchangeRateRealtimeServiceCached>>();
+    return new ExchangeRateRealtimeServiceCached(cache, inner, logger);
 });
 builder.Services.AddTransient<IExchangeRateRealtimeService>(sp =>
 {
@@ -81,6 +119,8 @@ if (!app.Environment.IsDevelopment())
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
+
+app.UseSerilogRequestLogging();
 
 app.UseHttpsRedirection();
 

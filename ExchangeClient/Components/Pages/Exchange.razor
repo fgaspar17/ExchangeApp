@@ -41,6 +41,10 @@
     }
     else if (exchangeRate is null)
     {
+        <div class="h2">Loading...</div>        
+    }
+    else if (exchangeRate.RealtimeCurrencyExchangeRate is null)
+    {
         <div class="h2">There is no exchange data.</div>
     }
     else

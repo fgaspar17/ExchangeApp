@@ -1,0 +1,1333 @@
+2025-06-14 08:22:09.929 +02:00 [INF] User profile is available. Using 'C:\Users\ErNaN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-14 08:22:10.176 +02:00 [INF] Now listening on: https://localhost:7231
+2025-06-14 08:22:10.176 +02:00 [INF] Now listening on: http://localhost:5214
+2025-06-14 08:22:10.180 +02:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-06-14 08:22:10.194 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-14 08:22:10.194 +02:00 [INF] Hosting environment: Development
+2025-06-14 08:22:10.194 +02:00 [INF] Content root path: C:\Users\ErNaN\source\repos\ExchangeApp\ExchangeClient
+2025-06-14 08:22:10.908 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7231/ - null null
+2025-06-14 08:22:10.979 +02:00 [INF] Executing endpoint '/ (/)'
+2025-06-14 08:22:11.058 +02:00 [INF] Executed endpoint '/ (/)'
+2025-06-14 08:22:11.061 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7231/ - 200 null text/html; charset=utf-8 156.0668ms
+2025-06-14 08:22:11.081 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7231/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-14 08:22:11.081 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7231/lib/bootstrap/dist/css/bootstrap.min.46ein0sx1k.css - null null
+2025-06-14 08:22:11.081 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7231/app.khy4lop6wu.css - null null
+2025-06-14 08:22:11.081 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7231/ExchangeClient.43zhw4esn1.styles.css - null null
+2025-06-14 08:22:11.082 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7231/_framework/blazor.web.js - null null
+2025-06-14 08:22:11.143 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7231/_vs/browserLink - null null
+2025-06-14 08:22:11.174 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-06-14 08:22:11.174 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-06-14 08:22:11.174 +02:00 [INF] Executing endpoint 'Blazor web static files'
+2025-06-14 08:22:11.207 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-06-14 08:22:11.270 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7231/_framework/aspnetcore-browser-refresh.js - 200 16513 application/javascript; charset=utf-8 189.4721ms
+2025-06-14 08:22:11.273 +02:00 [INF] The file lib/bootstrap/dist/css/bootstrap.min.46ein0sx1k.css was not modified
+2025-06-14 08:22:11.273 +02:00 [INF] The file ExchangeClient.43zhw4esn1.styles.css was not modified
+2025-06-14 08:22:11.273 +02:00 [INF] The file app.khy4lop6wu.css was not modified
+2025-06-14 08:22:11.273 +02:00 [INF] The file /_framework/blazor.web.js was not modified
+2025-06-14 08:22:11.273 +02:00 [INF] Executed endpoint 'Blazor web static files'
+2025-06-14 08:22:11.273 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-06-14 08:22:11.273 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-06-14 08:22:11.273 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-06-14 08:22:11.273 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7231/_framework/blazor.web.js - 304 null text/javascript 191.8882ms
+2025-06-14 08:22:11.273 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7231/lib/bootstrap/dist/css/bootstrap.min.46ein0sx1k.css - 304 null text/css 192.6755ms
+2025-06-14 08:22:11.274 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7231/app.khy4lop6wu.css - 304 null text/css 192.5349ms
+2025-06-14 08:22:11.274 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7231/ExchangeClient.43zhw4esn1.styles.css - 304 null text/css 192.861ms
+2025-06-14 08:22:11.283 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7231/_vs/browserLink - 200 null text/javascript;2025-06-14 08:24:23.540 +02:00 [INF] User profile is available. Using 'C:\Users\ErNaN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-14 08:24:23.747 +02:00 [INF] Now listening on: https://localhost:7231
+2025-06-14 08:24:23.748 +02:00 [INF] Now listening on: http://localhost:5214
+2025-06-14 08:24:23.752 +02:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-06-14 08:24:23.768 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-14 08:24:23.769 +02:00 [INF] Hosting environment: Development
+2025-06-14 08:24:23.769 +02:00 [INF] Content root path: C:\Users\ErNaN\source\repos\ExchangeApp\ExchangeClient
+2025-06-14 08:24:28.576 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7231/ - null null
+2025-06-14 08:24:28.638 +02:00 [INF] Executing endpoint '/ (/)'
+2025-06-14 08:24:28.718 +02:00 [INF] Executed endpoint '/ (/)'
+2025-06-14 08:24:28.719 +02:00 [INF] HTTP GET / responded 200 in 81.2461 ms
+2025-06-14 08:24:28.723 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7231/ - 200 null text/html; charset=utf-8 150.5511ms
+2025-06-14 08:24:28.731 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7231/lib/bootstrap/dist/css/bootstrap.min.46ein0sx1k.css - null null
+2025-06-14 08:24:28.733 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-06-14 08:24:28.736 +02:00 [INF] The file lib/bootstrap/dist/css/bootstrap.min.46ein0sx1k.css was not modified
+2025-06-14 08:24:28.736 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-06-14 08:24:28.736 +02:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.46ein0sx1k.css responded 304 in 3.7346 ms
+2025-06-14 08:24:28.737 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7231/lib/bootstrap/dist/css/bootstrap.min.46ein0sx1k.css - 304 null text/css 5.7656ms
+2025-06-14 08:24:28.738 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7231/app.khy4lop6wu.css - null null
+2025-06-14 08:24:28.738 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7231/ExchangeClient.43zhw4esn1.styles.css - null null
+2025-06-14 08:24:28.738 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7231/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-14 08:24:28.738 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7231/_framework/blazor.web.js - null null
+2025-06-14 08:24:28.741 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-06-14 08:24:28.741 +02:00 [INF] Executing endpoint 'Blazor web static files'
+2025-06-14 08:24:28.741 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-06-14 08:24:28.744 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7231/_vs/browserLink - null null
+2025-06-14 08:24:28.744 +02:00 [INF] The file app.khy4lop6wu.css was not modified
+2025-06-14 08:24:28.744 +02:00 [INF] The file ExchangeClient.43zhw4esn1.styles.css was not modified
+2025-06-14 08:24:28.744 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-06-14 08:24:28.779 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-06-14 08:24:28.779 +02:00 [INF] HTTP GET /app.khy4lop6wu.css responded 304 in 37.8113 ms
+2025-06-14 08:24:28.810 +02:00 [INF] HTTP GET /ExchangeClient.43zhw4esn1.styles.css responded 304 in 68.8505 ms
+2025-06-14 08:24:28.810 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7231/app.khy4lop6wu.css - 304 null text/css 72.5746ms
+2025-06-14 08:24:28.810 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7231/ExchangeClient.43zhw4esn1.styles.css - 304 null text/css 72.579ms
+2025-06-14 08:24:28.812 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7231/_framework/aspnetcore-browser-refresh.js - 200 16513 application/javascript; charset=utf-8 73.6173ms
+2025-06-14 08:24:28.812 +02:00 [INF] The file /_framework/blazor.web.js was not modified
+2025-06-14 08:24:28.813 +02:00 [INF] Executed endpoint 'Blazor web static files'
+2025-06-14 08:24:28.813 +02:00 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 71.4476 ms
+2025-06-14 08:24:28.813 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7231/_framework/blazor.web.js - 304 null text/javascript 74.5881ms
+2025-06-14 08:24:28.825 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7231/_vs/browserLink - 200 null text/javascript; charset=UTF-8 82.3114ms
+2025-06-14 08:24:31.220 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7231/ - application/x-www-form-urlencoded 248
+2025-06-14 08:24:31.226 +02:00 [INF] Executing endpoint '/ (/)'
+2025-06-14 08:24:54.372 +02:00 [WRN] Exchange rate request cancelled for CNY->ETH
+2025-06-14 08:25:03.487 +02:00 [ERR] Resilience event occurred. EventName: 'OnTimeout', Source: 'default/(null)/Timeout', Operation Key: 'null', Result: 'null'
+2025-06-14 08:25:03.511 +02:00 [WRN] Execution attempt. Source: 'default/(null)/Retry', Operation Key: 'null', Result: 'The operation didn't complete within the allowed timeout of '00:00:05'.', Handled: 'true', Attempt: '0', Execution Time: 32232.3992ms
+Polly.Timeout.TimeoutRejectedException: The operation didn't complete within the allowed timeout of '00:00:05'.
+ ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+ ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at ExchangeLibrary.Services.ExchangeRateRealtimeService.GetExchangeRateRealtime(String apiKey, String fromCurrency, String toCurrency, CancellationToken ct) in C:\Users\ErNaN\source\repos\ExchangeApp\ExchangeLibrary\Services\ExchangeRateRealtimeService.cs:line 28
+   at ExchangeLibrary.Services.ExchangeRateRealtimeServiceCached.<>c__DisplayClass3_0.<<GetExchangeRateRealtime>b__0>d.MoveNext() in C:\Users\ErNaN\source\repos\ExchangeApp\ExchangeLibrary\Services\ExchangeRateRealtimeServiceCached.cs:line 28
+--- End of stack trace from previous location ---
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.GetOrCreateAsync[TItem](IMemoryCache cache, Object key, Func`2 factory, MemoryCacheEntryOptions createOptions)
+   at ExchangeLibrary.Services.ExchangeRateRealtimeServiceCached.GetExchangeRateRealtime(String apiKey, String fromCurrency, String toCurrency, CancellationToken ct) in C:\Users\ErNaN\source\repos\ExchangeApp\ExchangeLibrary\Services\ExchangeRateRealtimeServiceCached.cs:line 21
+   at ExchangeLibrary.Services.ExchangeRateRealtimeServiceResilience.<>c__DisplayClass3_0.<<GetExchangeRateRealtime>b__0>d.MoveNext() in C:\Users\ErNaN\source\repos\ExchangeApp\ExchangeLibrary\Services\ExchangeRateRealtimeServiceResilience.cs:line 29
+--- End of stack trace from previous location ---
+   at Polly.ResiliencePipeline.<>c__10`1.<<ExecuteAsync>b__10_0>d.MoveNext()
+   --- End of inner exception stack trace ---
+   at Polly.Utils.ExceptionUtilities.TrySetStackTrace[T](T exception)
+   at Polly.Timeout.TimeoutResilienceStrategy.ExecuteCore[TResult,TState](Func`3 callback, ResilienceContext context, TState state)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Polly.Timeout.TimeoutResilienceStrategy.ExecuteCore[TResult,TState](Func`3 callback, ResilienceContext context, TState state)
+   at Polly.Utils.Pipeline.BridgeComponent.ExecuteCore[TResult,TState](Func`3 callback, ResilienceContext context, TState state)
+   at Polly.Utils.Pipeline.DelegatingComponent.<>c__9`2.<ExecuteComponent>b__9_0(ResilienceContext context, ValueTuple`3 state)
+   at Polly.Utils.Pipeline.BridgeComponent`1.<>c__4`2.<<ExecuteCore>b__4_0>d.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Polly.Utils.Pipeline.BridgeComponent`1.<>c__4`2.<ExecuteCore>b__4_0(ResilienceContext context, ValueTuple`2 state)
+   at Polly.Utils.StrategyHelper.ExecuteCallbackSafeAsync[TResult,TState](Func`3 callback, ResilienceContext context, TState state)
+   at Polly.Retry.RetryResilienceStrategy`1.ExecuteCore[TState](Func`3 callback, ResilienceContext context, TState state)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Polly.Retry.RetryResilienceStrategy`1.ExecuteCore[TState](Func`3 callback, ResilienceContext context, TState state)
+   at Polly.Utils.Pipeline.BridgeComponent`1.ExecuteCore[TResult,TState](Func`3 callback, ResilienceContext context, TState state)
+   at Polly.Utils.Pipeline.DelegatingComponent.ExecuteCore[TResult,TState](Func`3 callback, ResilienceContext context, TState state)
+   at Polly.Utils.Pipeline.DelegatingComponent.<>c__9`2.<ExecuteComponent>b__9_0(ResilienceContext context, ValueTuple`3 state)
+   at Polly.Utils.Pipeline.BridgeComponent`1.<>c__4`2.<<ExecuteCore>b__4_0>d.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Polly.Utils.Pipeline.BridgeComponent`1.<>c__4`2.<ExecuteCore>b__4_0(ResilienceContext context, ValueTuple`2 state)
+   at Polly.Utils.StrategyHelper.ExecuteCallbackSafeAsync[TResult,TState](Func`3 callback, ResilienceContext context, TState state)
+   at Polly.CircuitBreaker.CircuitBreakerResilienceStrategy`1.ExecuteCore[TState](Func`3 callback, ResilienceContext context, TState state)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Polly.CircuitBreaker.CircuitBreakerResilienceStrategy`1.ExecuteCore[TState](Func`3 callback, ResilienceContext context, TState state)
+   at Polly.Utils.Pipeline.BridgeComponent`1.ExecuteCore[TResult,TState](Func`3 callback, ResilienceContext context, TState state)
+   at Polly.Utils.Pipeline.DelegatingComponent.ExecuteCore[TResult,TState](Func`3 callback, ResilienceContext context, TState state)
+   at Polly.Utils.Pipeline.CompositeComponent.ExecuteCoreWithoutTelemetry[TResult,TState](Func`3 callback, ResilienceContext context, TState state)
+   at Polly.Utils.Pipeline.CompositeComponent.ExecuteCoreWithTelemetry[TResult,TState](Func`3 callback, ResilienceContext context, TState state)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Polly.Utils.Pipeline.CompositeComponent.ExecuteCoreWithTelemetry[TResult,TState](Func`3 callback, ResilienceContext context, TState state)
+   at Polly.Utils.Pipeline.CompositeComponent.ExecuteCore[TResult,TState](Func`3 callback, ResilienceContext context, TState state)
+   at Polly.Utils.Pipeline.ExecutionTrackingComponent.ExecuteCore[TResult,TState](Func`3 callback, ResilienceContext context, TState state)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Polly.Utils.Pipeline.ExecutionTrackingComponent.ExecuteCore[TResult,TState](Func`3 callback, ResilienceContext context, TState state)
+   at Polly.ResiliencePipeline.ExecuteAsync[TResult](Func`2 callback, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Polly.ResiliencePipeline.ExecuteAsync[TResult](Func`2 callback, CancellationToken cancellationToken)
+   at ExchangeLibrary.Services.ExchangeRateRealtimeServiceResilience.GetExchangeRateRealtime(String apiKey, String fromCurrency, String toCurrency, CancellationToken ct) in C:\Users\ErNaN\source\repos\ExchangeApp\ExchangeLibrary\Services\ExchangeRateRealtimeServiceResilience.cs:line 27
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at ExchangeLibrary.Services.ExchangeRateRealtimeServiceResilience.GetExchangeRateRealtime(String apiKey, String fromCurrency, String toCurrency, CancellationToken ct)
+   at ExchangeClient.Components.Pages.Exchange.Submit() in C:\Users\ErNaN\source\repos\ExchangeApp\ExchangeClient\Components\Pages\Exchange.razor:line 80
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at ExchangeClient.Components.Pages.Exchange.Submit()
+   at Microsoft.AspNetCore.Components.ComponentBase.Microsoft.AspNetCore.Components.IHandleEvent.HandleEventAsync(EventCallbackWorkItem callback, Object arg)
+   at Microsoft.AspNetCore.Components.EventCallback`1.InvokeAsync(TValue arg)
+   at Microsoft.AspNetCore.Components.Forms.EditForm.HandleSubmitAsync()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Components.Forms.EditForm.HandleSubmitAsync()
+   at Microsoft.AspNetCore.Components.ComponentBase.Microsoft.AspNetCore.Components.IHandleEvent.HandleEventAsync(EventCallbackWorkItem callback, Object arg)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.DispatchEventAsync(UInt64 eventHandlerId, EventFieldInfo fieldInfo, EventArgs eventArgs, Boolean waitForQuiescence)
+   at Microsoft.AspNetCore.Components.Endpoints.EndpointHtmlRenderer.DispatchSubmitEventAsync(String handlerName, Boolean& isBadRequest)
+   at Microsoft.AspNetCore.Components.Endpoints.RazorComponentEndpointInvoker.RenderComponentCore(HttpContext context)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Components.Endpoints.RazorComponentEndpointInvoker.RenderComponentCore(HttpContext context)
+   at Microsoft.AspNetCore.Components.Rendering.RendererSynchronizationContext.<>c.<<InvokeAsync>b__10_0>d.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Components.Rendering.RendererSynchronizationContext.<>c.<InvokeAsync>b__10_0(ValueTuple`2 state)
+   at Microsoft.AspNetCore.Components.Rendering.RendererSynchronizationContext.InvokeWithThisAsCurrentSyncCtxThenSetResult[TState](AsyncTaskMethodBuilder completion, Action`1 callback, TState state)
+   at Microsoft.AspNetCore.Components.Rendering.RendererSynchronizationContext.SendIfQuiescedOrElsePost[TState](Action`1 callback, TState state)
+   at Microsoft.AspNetCore.Components.Rendering.RendererSynchronizationContext.InvokeAsync(Func`1 asyncAction)
+   at Microsoft.AspNetCore.Builder.ServerRazorComponentsEndpointConventionBuilderExtensions.<>c__DisplayClass1_1.<<AddInteractiveServerRenderMode>b__1>d.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Builder.ServerRazorComponentsEndpointConventionBuilderExtensions.<>c__DisplayClass1_1.<AddInteractiveServerRenderMode>b__1(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Antiforgery.Internal.AntiforgeryMiddleware.InvokeAwaited(HttpContext context)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Antiforgery.Internal.AntiforgeryMiddleware.InvokeAwaited(HttpContext context)
+   at Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware.Invoke(HttpContext context)
+   at Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware.InvokeAsync(HttpContext context)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(Action action, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1 task, TResult result)
+   at Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware.GetScriptTag(String requestId, Boolean isHttps, String hostUrl)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(Action action, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1 task, TResult result)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(Action action, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1 task, TResult result)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(Action action, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1 task, TResult result)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(Action action, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1 task, TResult result)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(Action action, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1 task, TResult result)
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecuteFromThreadPool(Thread threadPoolThread)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+--- End of stack trace from previous location ---
+
+2025-06-14 08:25:03.515 +02:00 [WRN] Resilience event occurred. EventName: 'OnRetry', Source: 'default/(null)/Retry', Operation Key: 'null', Result: 'The operation didn't complete within the allowed timeout of '00:00:05'.'
+Polly.Timeout.TimeoutRejectedException: The operation didn't complete within the allowed timeout of '00:00:05'.
+ ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+ ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at ExchangeLibrary.Services.ExchangeRateRealtimeService.GetExchangeRateRealtime(String apiKey, String fromCurrency, String toCurrency, CancellationToken ct) in C:\Users\ErNaN\source\repos\ExchangeApp\ExchangeLibrary\Services\ExchangeRateRealtimeService.cs:line 28
+   at ExchangeLibrary.Services.ExchangeRateRealtimeServiceCached.<>c__DisplayClass3_0.<<GetExchangeRateRealtime>b__0>d.MoveNext() in C:\Users\ErNaN\source\repos\ExchangeApp\ExchangeLibrary\Services\ExchangeRateRealtimeServiceCached.cs:line 28
+--- End of stack trace from previous location ---
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.GetOrCreateAsync[TItem](IMemoryCache cache, Object key, Func`2 factory, MemoryCacheEntryOptions createOptions)
+   at ExchangeLibrary.Services.ExchangeRateRealtimeServiceCached.GetExchangeRateRealtime(String apiKey, String fromCurrency, String toCurrency, CancellationToken ct) in C:\Users\ErNaN\source\repos\ExchangeApp\ExchangeLibrary\Services\ExchangeRateRealtimeServiceCached.cs:line 21
+   at ExchangeLibrary.Services.ExchangeRateRealtimeServiceResilience.<>c__DisplayClass3_0.<<GetExchangeRateRealtime>b__0>d.MoveNext() in C:\Users\ErNaN\source\repos\ExchangeApp\ExchangeLibrary\Services\ExchangeRateRealtimeServiceResilience.cs:line 29
+--- End of stack trace from previous location ---
+   at Polly.ResiliencePipeline.<>c__10`1.<<ExecuteAsync>b__10_0>d.MoveNext()
+   --- End of inner exception stack trace ---
+   at Polly.Utils.ExceptionUtilities.TrySetStackTrace[T](T exception)
+   at Polly.Timeout.TimeoutResilienceStrategy.ExecuteCore[TResult,TState](Func`3 callback, ResilienceContext context, TState state)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Polly.Timeout.TimeoutResilienceStrategy.ExecuteCore[TResult,TState](Func`3 callback, ResilienceContext context, TState state)
+   at Polly.Utils.Pipeline.BridgeComponent.ExecuteCore[TResult,TState](Func`3 callback, ResilienceContext context, TState state)
+   at Polly.Utils.Pipeline.DelegatingComponent.<>c__9`2.<ExecuteComponent>b__9_0(ResilienceContext context, ValueTuple`3 state)
+   at Polly.Utils.Pipeline.BridgeComponent`1.<>c__4`2.<<ExecuteCore>b__4_0>d.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Polly.Utils.Pipeline.BridgeComponent`1.<>c__4`2.<ExecuteCore>b__4_0(ResilienceContext context, ValueTuple`2 state)
+   at Polly.Utils.StrategyHelper.ExecuteCallbackSafeAsync[TResult,TState](Func`3 callback, ResilienceContext context, TState state)
+   at Polly.Retry.RetryResilienceStrategy`1.ExecuteCore[TState](Func`3 callback, ResilienceContext context, TState state)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Polly.Retry.RetryResilienceStrategy`1.ExecuteCore[TState](Func`3 callback, ResilienceContext context, TState state)
+   at Polly.Utils.Pipeline.BridgeComponent`1.ExecuteCore[TResult,TState](Func`3 callback, ResilienceContext context, TState state)
+   at Polly.Utils.Pipeline.DelegatingComponent.ExecuteCore[TResult,TState](Func`3 callback, ResilienceContext context, TState state)
+   at Polly.Utils.Pipeline.DelegatingComponent.<>c__9`2.<ExecuteComponent>b__9_0(ResilienceContext context, ValueTuple`3 state)
+   at Polly.Utils.Pipeline.BridgeComponent`1.<>c__4`2.<<ExecuteCore>b__4_0>d.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Polly.Utils.Pipeline.BridgeComponent`1.<>c__4`2.<ExecuteCore>b__4_0(ResilienceContext context, ValueTuple`2 state)
+   at Polly.Utils.StrategyHelper.ExecuteCallbackSafeAsync[TResult,TState](Func`3 callback, ResilienceContext context, TState state)
+   at Polly.CircuitBreaker.CircuitBreakerResilienceStrategy`1.ExecuteCore[TState](Func`3 callback, ResilienceContext context, TState state)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Polly.CircuitBreaker.CircuitBreakerResilienceStrategy`1.ExecuteCore[TState](Func`3 callback, ResilienceContext context, TState state)
+   at Polly.Utils.Pipeline.BridgeComponent`1.ExecuteCore[TResult,TState](Func`3 callback, ResilienceContext context, TState state)
+   at Polly.Utils.Pipeline.DelegatingComponent.ExecuteCore[TResult,TState](Func`3 callback, ResilienceContext context, TState state)
+   at Polly.Utils.Pipeline.CompositeComponent.ExecuteCoreWithoutTelemetry[TResult,TState](Func`3 callback, ResilienceContext context, TState state)
+   at Polly.Utils.Pipeline.CompositeComponent.ExecuteCoreWithTelemetry[TResult,TState](Func`3 callback, ResilienceContext context, TState state)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Polly.Utils.Pipeline.CompositeComponent.ExecuteCoreWithTelemetry[TResult,TState](Func`3 callback, ResilienceContext context, TState state)
+   at Polly.Utils.Pipeline.CompositeComponent.ExecuteCore[TResult,TState](Func`3 callback, ResilienceContext context, TState state)
+   at Polly.Utils.Pipeline.ExecutionTrackingComponent.ExecuteCore[TResult,TState](Func`3 callback, ResilienceContext context, TState state)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Polly.Utils.Pipeline.ExecutionTrackingComponent.ExecuteCore[TResult,TState](Func`3 callback, ResilienceContext context, TState state)
+   at Polly.ResiliencePipeline.ExecuteAsync[TResult](Func`2 callback, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Polly.ResiliencePipeline.ExecuteAsync[TResult](Func`2 callback, CancellationToken cancellationToken)
+   at ExchangeLibrary.Services.ExchangeRateRealtimeServiceResilience.GetExchangeRateRealtime(String apiKey, String fromCurrency, String toCurrency, CancellationToken ct) in C:\Users\ErNaN\source\repos\ExchangeApp\ExchangeLibrary\Services\ExchangeRateRealtimeServiceResilience.cs:line 27
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at ExchangeLibrary.Services.ExchangeRateRealtimeServiceResilience.GetExchangeRateRealtime(String apiKey, String fromCurrency, String toCurrency, CancellationToken ct)
+   at ExchangeClient.Components.Pages.Exchange.Submit() in C:\Users\ErNaN\source\repos\ExchangeApp\ExchangeClient\Components\Pages\Exchange.razor:line 80
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at ExchangeClient.Components.Pages.Exchange.Submit()
+   at Microsoft.AspNetCore.Components.ComponentBase.Microsoft.AspNetCore.Components.IHandleEvent.HandleEventAsync(EventCallbackWorkItem callback, Object arg)
+   at Microsoft.AspNetCore.Components.EventCallback`1.InvokeAsync(TValue arg)
+   at Microsoft.AspNetCore.Components.Forms.EditForm.HandleSubmitAsync()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Components.Forms.EditForm.HandleSubmitAsync()
+   at Microsoft.AspNetCore.Components.ComponentBase.Microsoft.AspNetCore.Components.IHandleEvent.HandleEventAsync(EventCallbackWorkItem callback, Object arg)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.DispatchEventAsync(UInt64 eventHandlerId, EventFieldInfo fieldInfo, EventArgs eventArgs, Boolean waitForQuiescence)
+   at Microsoft.AspNetCore.Components.Endpoints.EndpointHtmlRenderer.DispatchSubmitEventAsync(String handlerName, Boolean& isBadRequest)
+   at Microsoft.AspNetCore.Components.Endpoints.RazorComponentEndpointInvoker.RenderComponentCore(HttpContext context)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Components.Endpoints.RazorComponentEndpointInvoker.RenderComponentCore(HttpContext context)
+   at Microsoft.AspNetCore.Components.Rendering.RendererSynchronizationContext.<>c.<<InvokeAsync>b__10_0>d.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Components.Rendering.RendererSynchronizationContext.<>c.<InvokeAsync>b__10_0(ValueTuple`2 state)
+   at Microsoft.AspNetCore.Components.Rendering.RendererSynchronizationContext.InvokeWithThisAsCurrentSyncCtxThenSetResult[TState](AsyncTaskMethodBuilder completion, Action`1 callback, TState state)
+   at Microsoft.AspNetCore.Components.Rendering.RendererSynchronizationContext.SendIfQuiescedOrElsePost[TState](Action`1 callback, TState state)
+   at Microsoft.AspNetCore.Components.Rendering.RendererSynchronizationContext.InvokeAsync(Func`1 asyncAction)
+   at Microsoft.AspNetCore.Builder.ServerRazorComponentsEndpointConventionBuilderExtensions.<>c__DisplayClass1_1.<<AddInteractiveServerRenderMode>b__1>d.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Builder.ServerRazorComponentsEndpointConventionBuilderExtensions.<>c__DisplayClass1_1.<AddInteractiveServerRenderMode>b__1(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Antiforgery.Internal.AntiforgeryMiddleware.InvokeAwaited(HttpContext context)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Antiforgery.Internal.AntiforgeryMiddleware.InvokeAwaited(HttpContext context)
+   at Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware.Invoke(HttpContext context)
+   at Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware.InvokeAsync(HttpContext context)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(Action action, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1 task, TResult result)
+   at Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware.GetScriptTag(String requestId, Boolean isHttps, String hostUrl)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(Action action, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1 task, TResult result)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(Action action, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1 task, TResult result)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(Action action, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1 task, TResult result)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(Action action, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1 task, TResult result)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(Action action, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1 task, TResult result)
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecuteFromThreadPool(Thread threadPoolThread)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+--- End of stack trace from previous location ---
+
+2025-06-14 08:25:07.802 +02:00 [INF] Exchange rate retrieved successfully: CNY->ETH
+2025-06-14 08:25:07.806 +02:00 [INF] Execution attempt. Source: 'default/(null)/Retry', Operation Key: 'null', Result: 'ExchangeLibrary.Models.ExchangeRateRealtimeResponse', Handled: 'false', Attempt: '1', Execution Time: 3054.2797ms
+2025-06-14 08:25:12.502 +02:00 [INF] Executed endpoint '/ (/)'
+2025-06-14 08:25:12.502 +02:00 [ERR] HTTP POST / responded 500 in 41280.0543 ms
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ExchangeClient.Components.Pages.Exchange.BuildRenderTree(RenderTreeBuilder __builder) in C:\Users\ErNaN\source\repos\ExchangeApp\ExchangeClient\Components\Pages\Exchange.razor:line 50
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.ProcessRenderQueue()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.ProcessRenderQueue()
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.AddToRenderQueue(Int32 componentId, RenderFragment renderFragment)
+   at Microsoft.AspNetCore.Components.ComponentBase.StateHasChanged()
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.Forms.EditForm.HandleSubmitAsync()
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+   at Microsoft.AspNetCore.Components.Endpoints.EndpointHtmlRenderer.<WaitForNonStreamingPendingTasks>g__Execute|43_0()
+   at Microsoft.AspNetCore.Components.Endpoints.RazorComponentEndpointInvoker.RenderComponentCore(HttpContext context)
+   at Microsoft.AspNetCore.Components.Endpoints.RazorComponentEndpointInvoker.RenderComponentCore(HttpContext context)
+   at Microsoft.AspNetCore.Components.Rendering.RendererSynchronizationContext.<>c.<<InvokeAsync>b__10_0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Builder.ServerRazorComponentsEndpointConventionBuilderExtensions.<>c__DisplayClass1_1.<<AddInteractiveServerRenderMode>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Antiforgery.Internal.AntiforgeryMiddleware.InvokeAwaited(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2025-06-14 08:25:12.504 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ExchangeClient.Components.Pages.Exchange.BuildRenderTree(RenderTreeBuilder __builder) in C:\Users\ErNaN\source\repos\ExchangeApp\ExchangeClient\Components\Pages\Exchange.razor:line 50
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.ProcessRenderQueue()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.ProcessRenderQueue()
+   at Microsoft.AspNetCore.Components.Rende2025-06-14 08:28:12.124 +02:00 [INF] User profile is available. Using 'C:\Users\ErNaN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-14 08:28:12.348 +02:00 [INF] Now listening on: https://localhost:7231
+2025-06-14 08:28:12.349 +02:00 [INF] Now listening on: http://localhost:5214
+2025-06-14 08:28:12.353 +02:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-06-14 08:28:12.367 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-14 08:28:12.367 +02:00 [INF] Hosting environment: Development
+2025-06-14 08:28:12.367 +02:00 [INF] Content root path: C:\Users\ErNaN\source\repos\ExchangeApp\ExchangeClient
+2025-06-14 08:28:13.868 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7231/ - null null
+2025-06-14 08:28:13.932 +02:00 [INF] Executing endpoint '/ (/)'
+2025-06-14 08:28:14.010 +02:00 [INF] Executed endpoint '/ (/)'
+2025-06-14 08:28:14.011 +02:00 [INF] HTTP GET / responded 200 in 79.1011 ms
+2025-06-14 08:28:14.016 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7231/ - 200 null text/html; charset=utf-8 149.9405ms
+2025-06-14 08:28:14.026 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7231/lib/bootstrap/dist/css/bootstrap.min.46ein0sx1k.css - null null
+2025-06-14 08:28:14.028 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-06-14 08:28:14.030 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7231/ExchangeClient.43zhw4esn1.styles.css - null null
+2025-06-14 08:28:14.030 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7231/app.khy4lop6wu.css - null null
+2025-06-14 08:28:14.055 +02:00 [INF] The file lib/bootstrap/dist/css/bootstrap.min.46ein0sx1k.css was not modified
+2025-06-14 08:28:14.087 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-06-14 08:28:14.087 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-06-14 08:28:14.148 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7231/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-14 08:28:14.148 +02:00 [INF] The file ExchangeClient.43zhw4esn1.styles.css was not modified
+2025-06-14 08:28:14.148 +02:00 [INF] The file app.khy4lop6wu.css was not modified
+2025-06-14 08:28:14.148 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7231/_framework/blazor.web.js - null null
+2025-06-14 08:28:14.148 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7231/_vs/browserLink - null null
+2025-06-14 08:28:14.151 +02:00 [INF] Executing endpoint 'Blazor web static files'
+2025-06-14 08:28:14.151 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-06-14 08:28:14.151 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-06-14 08:28:14.151 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-06-14 08:28:14.151 +02:00 [INF] HTTP GET /app.khy4lop6wu.css responded 304 in 64.0291 ms
+2025-06-14 08:28:14.151 +02:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.46ein0sx1k.css responded 304 in 123.4208 ms
+2025-06-14 08:28:14.151 +02:00 [INF] HTTP GET /ExchangeClient.43zhw4esn1.styles.css responded 304 in 64.1955 ms
+2025-06-14 08:28:14.151 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7231/lib/bootstrap/dist/css/bootstrap.min.46ein0sx1k.css - 304 null text/css 125.4831ms
+2025-06-14 08:28:14.151 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7231/ExchangeClient.43zhw4esn1.styles.css - 304 null text/css 121.4958ms
+2025-06-14 08:28:14.151 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7231/app.khy4lop6wu.css - 304 null text/css 121.6777ms
+2025-06-14 08:28:14.155 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7231/_framework/aspnetcore-browser-refresh.js - 200 16513 application/javascript; charset=utf-8 36.3938ms
+2025-06-14 08:28:14.155 +02:00 [INF] The file /_framework/blazor.web.js was not modified
+2025-06-14 08:28:14.155 +02:00 [INF] Executed endpoint 'Blazor web static files'
+2025-06-14 08:28:14.155 +02:00 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 4.9056 ms
+2025-06-14 08:28:14.156 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7231/_framework/blazor.web.js - 304 null text/javascript 7.8303ms
+2025-06-14 08:28:14.189 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7231/_vs/browserLink - 200 null text/javascript; charset=UTF-8 40.5599ms
+2025-06-14 08:28:18.178 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7231/ - application/x-www-form-urlencoded 248
+2025-06-14 08:28:18.183 +02:00 [INF] Executing endpoint '/ (/)'
+2025-06-14 08:28:18.707 +02:00 [INF] Exchange rate retrieved successfully: CNY->BCH
+2025-06-14 08:28:18.714 +02:00 [INF] Execution attempt. Source: 'default/(null)/Retry', Operation Key: 'null', Result: 'ExchangeLibrary.Models.ExchangeRateRealtimeResponse', Handled: 'false', Attempt: '0', Execution Time: 484.4936ms
+2025-06-14 08:28:18.719 +02:00 [INF] Executed endpoint '/ (/)'
+2025-06-14 08:28:18.719 +02:00 [INF] HTTP POST / responded 200 in 539.7062 ms
+2025-06-14 08:28:18.719 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7231/ - 200 null text/html; charset=utf-8 541.8491ms
+2025-06-14 08:28:18.735 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7231/lib/bootstrap/dist/css/bootstrap.min.46ein0sx1k.css - null null
+2025-06-14 08:28:18.736 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7231/app.khy4lop6wu.css - null null
+2025-06-14 08:28:18.736 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7231/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-14 08:28:18.736 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7231/ExchangeClient.43zhw4esn1.styles.css - null null
+2025-06-14 08:28:18.736 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7231/_framework/blazor.web.js - null null
+2025-06-14 08:28:18.736 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7231/_vs/browserLink - null null
+2025-06-14 08:28:18.736 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7231/_framework/aspnetcore-browser-refresh.js - 200 16513 application/javascript; charset=utf-8 0.5153ms
+2025-06-14 08:28:18.737 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-06-14 08:28:18.737 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-06-14 08:28:18.737 +02:00 [INF] The file app.khy4lop6wu.css was not modified
+2025-06-14 08:28:18.737 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-06-14 08:28:18.737 +02:00 [INF] The file ExchangeClient.43zhw4esn1.styles.css was not modified
+2025-06-14 08:28:18.738 +02:00 [INF] Executing endpoint 'Blazor web static files'
+2025-06-14 08:28:18.738 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-06-14 08:28:18.738 +02:00 [INF] HTTP GET /app.khy4lop6wu.css responded 304 in 0.4964 ms
+2025-06-14 08:28:18.738 +02:00 [INF] The file lib/bootstrap/dist/css/bootstrap.min.46ein0sx1k.css was not modified
+2025-06-14 08:28:18.738 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-06-14 08:28:18.738 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7231/app.khy4lop6wu.css - 304 null text/css 2.2651ms
+2025-06-14 08:28:18.738 +02:00 [INF] The file /_framework/blazor.web.js was not modified
+2025-06-14 08:28:18.738 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-06-14 08:28:18.738 +02:00 [INF] Executed endpoint 'Blazor web static files'
+2025-06-14 08:28:18.738 +02:00 [INF] HTTP GET /ExchangeClient.43zhw4esn1.styles.css responded 304 in 0.9176 ms
+2025-06-14 08:28:18.738 +02:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.46ein0sx1k.css responded 304 in 0.7418 ms
+2025-06-14 08:28:18.738 +02:00 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 0.7133 ms
+2025-06-14 08:28:18.738 +02:00 [INF] Reques2025-06-14 08:28:47.798 +02:00 [INF] User profile is available. Using 'C:\Users\ErNaN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-14 08:28:47.999 +02:00 [INF] Now listening on: https://localhost:7231
+2025-06-14 08:28:48.000 +02:00 [INF] Now listening on: http://localhost:5214
+2025-06-14 08:28:48.004 +02:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-06-14 08:28:48.020 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-14 08:28:48.020 +02:00 [INF] Hosting environment: Development
+2025-06-14 08:28:48.020 +02:00 [INF] Content root path: C:\Users\ErNaN\source\repos\ExchangeApp\ExchangeClient
+2025-06-14 08:28:50.107 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7231/ - null null
+2025-06-14 08:28:50.170 +02:00 [INF] Executing endpoint '/ (/)'
+2025-06-14 08:28:50.245 +02:00 [INF] Executed endpoint '/ (/)'
+2025-06-14 08:28:50.246 +02:00 [INF] HTTP GET / responded 200 in 76.5979 ms
+2025-06-14 08:28:50.250 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7231/ - 200 null text/html; charset=utf-8 145.977ms
+2025-06-14 08:28:50.259 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7231/lib/bootstrap/dist/css/bootstrap.min.46ein0sx1k.css - null null
+2025-06-14 08:28:50.261 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-06-14 08:28:50.263 +02:00 [INF] The file lib/bootstrap/dist/css/bootstrap.min.46ein0sx1k.css was not modified
+2025-06-14 08:28:50.264 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-06-14 08:28:50.264 +02:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.46ein0sx1k.css responded 304 in 3.5817 ms
+2025-06-14 08:28:50.264 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7231/lib/bootstrap/dist/css/bootstrap.min.46ein0sx1k.css - 304 null text/css 5.5684ms
+2025-06-14 08:28:50.265 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7231/app.khy4lop6wu.css - null null
+2025-06-14 08:28:50.265 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7231/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-14 08:28:50.265 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7231/ExchangeClient.43zhw4esn1.styles.css - null null
+2025-06-14 08:28:50.265 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7231/_framework/blazor.web.js - null null
+2025-06-14 08:28:50.269 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-06-14 08:28:50.269 +02:00 [INF] Executing endpoint 'Blazor web static files'
+2025-06-14 08:28:50.269 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-06-14 08:28:50.300 +02:00 [INF] The file ExchangeClient.43zhw4esn1.styles.css was not modified
+2025-06-14 08:28:50.300 +02:00 [INF] The file app.khy4lop6wu.css was not modified
+2025-06-14 08:28:50.301 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7231/_vs/browserLink - null null
+2025-06-14 08:28:50.301 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-06-14 08:28:50.301 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-06-14 08:28:50.301 +02:00 [INF] HTTP GET /app.khy4lop6wu.css responded 304 in 31.6695 ms
+2025-06-14 08:28:50.301 +02:00 [INF] HTTP GET /ExchangeClient.43zhw4esn1.styles.css responded 304 in 31.7355 ms
+2025-06-14 08:28:50.301 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7231/_framework/aspnetcore-browser-refresh.js - 200 16513 application/javascript; charset=utf-8 36.1777ms
+2025-06-14 08:28:50.301 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7231/app.khy4lop6wu.css - 304 null text/css 36.2548ms
+2025-06-14 08:28:50.301 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7231/ExchangeClient.43zhw4esn1.styles.css - 304 null text/css 36.2998ms
+2025-06-14 08:28:50.303 +02:00 [INF] The file /_framework/blazor.web.js was not modified
+2025-06-14 08:28:50.303 +02:00 [INF] Executed endpoint 'Blazor web static files'
+2025-06-14 08:28:50.303 +02:00 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 34.1029 ms
+2025-06-14 08:28:50.303 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7231/_framework/blazor.web.js - 304 null text/javascript 38.4389ms
+2025-06-14 08:28:50.317 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7231/_vs/browserLink - 200 null text/javascript; charset=UTF-8 16.2504ms
+2025-06-14 08:28:52.970 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7231/ - application/x-www-form-urlencoded 248
+2025-06-14 08:28:52.981 +02:00 [INF] Executing endpoint '/ (/)'
+2025-06-14 08:29:08.672 +02:00 [WRN] Exchange rate request cancelled for CNY->XRP
+2025-06-14 08:29:08.745 +02:00 [ERR] Resilience event occurred. EventName: 'OnTimeout', Source: 'default/(null)/Timeout', Operation Key: 'null', Result: 'null'
+2025-06-14 08:29:08.758 +02:00 [WRN] Execution attempt. Source: 'default/(null)/Retry', Operation Key: 'null', Result: 'The operation didn't complete within the allowed timeout of '00:00:05'.', Handled: 'true', Attempt: '0', Execution Time: 15732.5372ms
+Polly.Timeout.TimeoutRejectedException: The operation didn't complete within the allowed timeout of '00:00:05'.
+ ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+ ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at ExchangeLibrary.Services.ExchangeRateRealtimeService.GetExchangeRateRealtime(String apiKey, String fromCurrency, String toCurrency, CancellationToken ct) in C:\Users\ErNaN\source\repos\ExchangeApp\ExchangeLibrary\Services\ExchangeRateRealtimeService.cs:line 28
+   at ExchangeLibrary.Services.ExchangeRateRealtimeServiceCached.<>c__DisplayClass3_0.<<GetExchangeRateRealtime>b__0>d.MoveNext() in C:\Users\ErNaN\source\repos\ExchangeApp\ExchangeLibrary\Services\ExchangeRateRealtimeServiceCached.cs:line 28
+--- End of stack trace from previous location ---
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.GetOrCreateAsync[TItem](IMemoryCache cache, Object key, Func`2 factory, MemoryCacheEntryOptions createOptions)
+   at ExchangeLibrary.Services.ExchangeRateRealtimeServiceCached.GetExchangeRateRealtime(String apiKey, String fromCurrency, String toCurrency, CancellationToken ct) in C:\Users\ErNaN\source\repos\ExchangeApp\ExchangeLibrary\Services\ExchangeRateRealtimeServiceCached.cs:line 21
+   at ExchangeLibrary.Services.ExchangeRateRealtimeServiceResilience.<>c__DisplayClass3_0.<<GetExchangeRateRealtime>b__0>d.MoveNext() in C:\Users\ErNaN\source\repos\ExchangeApp\ExchangeLibrary\Services\ExchangeRateRealtimeServiceResilience.cs:line 29
+--- End of stack trace from previous location ---
+   at Polly.ResiliencePipeline.<>c__10`1.<<ExecuteAsync>b__10_0>d.MoveNext()
+   --- End of inner exception stack trace ---
+   at Polly.Utils.ExceptionUtilities.TrySetStackTrace[T](T exception)
+   at Polly.Timeout.TimeoutResilienceStrategy.ExecuteCore[TResult,TState](Func`3 callback, ResilienceContext context, TState state)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Polly.Timeout.TimeoutResilienceStrategy.ExecuteCore[TResult,TState](Func`3 callback, ResilienceContext context, TState state)
+   at Polly.Utils.Pipeline.BridgeComponent.ExecuteCore[TResult,TState](Func`3 callback, ResilienceContext context, TState state)
+   at Polly.Utils.Pipeline.DelegatingComponent.<>c__9`2.<ExecuteComponent>b__9_0(ResilienceContext context, ValueTuple`3 state)
+   at Polly.Utils.Pipeline.BridgeComponent`1.<>c__4`2.<<ExecuteCore>b__4_0>d.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Polly.Utils.Pipeline.BridgeComponent`1.<>c__4`2.<ExecuteCore>b__4_0(ResilienceContext context, ValueTuple`2 state)
+   at Polly.Utils.StrategyHelper.ExecuteCallbackSafeAsync[TResult,TState](Func`3 callback, ResilienceContext context, TState state)
+   at Polly.Retry.RetryResilienceStrategy`1.ExecuteCore[TState](Func`3 callback, ResilienceContext context, TState state)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Polly.Retry.RetryResilienceStrategy`1.ExecuteCore[TState](Func`3 callback, ResilienceContext context, TState state)
+   at Polly.Utils.Pipeline.BridgeComponent`1.ExecuteCore[TResult,TState](Func`3 callback, ResilienceContext context, TState state)
+   at Polly.Utils.Pipeline.DelegatingComponent.ExecuteCore[TResult,TState](Func`3 callback, ResilienceContext context, TState state)
+   at Polly.Utils.Pipeline.DelegatingComponent.<>c__9`2.<ExecuteComponent>b__9_0(ResilienceContext context, ValueTuple`3 state)
+   at Polly.Utils.Pipeline.BridgeComponent`1.<>c__4`2.<<ExecuteCore>b__4_0>d.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Polly.Utils.Pipeline.BridgeComponent`1.<>c__4`2.<ExecuteCore>b__4_0(ResilienceContext context, ValueTuple`2 state)
+   at Polly.Utils.StrategyHelper.ExecuteCallbackSafeAsync[TResult,TState](Func`3 callback, ResilienceContext context, TState state)
+   at Polly.CircuitBreaker.CircuitBreakerResilienceStrategy`1.ExecuteCore[TState](Func`3 callback, ResilienceContext context, TState state)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Polly.CircuitBreaker.CircuitBreakerResilienceStrategy`1.ExecuteCore[TState](Func`3 callback, ResilienceContext context, TState state)
+   at Polly.Utils.Pipeline.BridgeComponent`1.ExecuteCore[TResult,TState](Func`3 callback, ResilienceContext context, TState state)
+   at Polly.Utils.Pipeline.DelegatingComponent.ExecuteCore[TResult,TState](Func`3 callback, ResilienceContext context, TState state)
+   at Polly.Utils.Pipeline.CompositeComponent.ExecuteCoreWithoutTelemetry[TResult,TState](Func`3 callback, ResilienceContext context, TState state)
+   at Polly.Utils.Pipeline.CompositeComponent.ExecuteCoreWithTelemetry[TResult,TState](Func`3 callback, ResilienceContext context, TState state)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Polly.Utils.Pipeline.CompositeComponent.ExecuteCoreWithTelemetry[TResult,TState](Func`3 callback, ResilienceContext context, TState state)
+   at Polly.Utils.Pipeline.CompositeComponent.ExecuteCore[TResult,TState](Func`3 callback, ResilienceContext context, TState state)
+   at Polly.Utils.Pipeline.ExecutionTrackingComponent.ExecuteCore[TResult,TState](Func`3 callback, ResilienceContext context, TState state)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Polly.Utils.Pipeline.ExecutionTrackingComponent.ExecuteCore[TResult,TState](Func`3 callback, ResilienceContext context, TState state)
+   at Polly.ResiliencePipeline.ExecuteAsync[TResult](Func`2 callback, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Polly.ResiliencePipeline.ExecuteAsync[TResult](Func`2 callback, CancellationToken cancellationToken)
+   at ExchangeLibrary.Services.ExchangeRateRealtimeServiceResilience.GetExchangeRateRealtime(String apiKey, String fromCurrency, String toCurrency, CancellationToken ct) in C:\Users\ErNaN\source\repos\ExchangeApp\ExchangeLibrary\Services\ExchangeRateRealtimeServiceResilience.cs:line 27
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at ExchangeLibrary.Services.ExchangeRateRealtimeServiceResilience.GetExchangeRateRealtime(String apiKey, String fromCurrency, String toCurrency, CancellationToken ct)
+   at ExchangeClient.Components.Pages.Exchange.Submit() in C:\Users\ErNaN\source\repos\ExchangeApp\ExchangeClient\Components\Pages\Exchange.razor:line 84
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at ExchangeClient.Components.Pages.Exchange.Submit()
+   at Microsoft.AspNetCore.Components.ComponentBase.Microsoft.AspNetCore.Components.IHandleEvent.HandleEventAsync(EventCallbackWorkItem callback, Object arg)
+   at Microsoft.AspNetCore.Components.EventCallback`1.InvokeAsync(TValue arg)
+   at Microsoft.AspNetCore.Components.Forms.EditForm.HandleSubmitAsync()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Components.Forms.EditForm.HandleSubmitAsync()
+   at Microsoft.AspNetCore.Components.ComponentBase.Microsoft.AspNetCore.Components.IHandleEvent.HandleEventAsync(EventCallbackWorkItem callback, Object arg)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.DispatchEventAsync(UInt64 eventHandlerId, EventFieldInfo fieldInfo, EventArgs eventArgs, Boolean waitForQuiescence)
+   at Microsoft.AspNetCore.Components.Endpoints.EndpointHtmlRenderer.DispatchSubmitEventAsync(String handlerName, Boolean& isBadRequest)
+   at Microsoft.AspNetCore.Components.Endpoints.RazorComponentEndpointInvoker.RenderComponentCore(HttpContext context)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Components.Endpoints.RazorComponentEndpointInvoker.RenderComponentCore(HttpContext context)
+   at Microsoft.AspNetCore.Components.Rendering.RendererSynchronizationContext.<>c.<<InvokeAsync>b__10_0>d.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Components.Rendering.RendererSynchronizationContext.<>c.<InvokeAsync>b__10_0(ValueTuple`2 state)
+   at Microsoft.AspNetCore.Components.Rendering.RendererSynchronizationContext.InvokeWithThisAsCurrentSyncCtxThenSetResult[TState](AsyncTaskMethodBuilder completion, Action`1 callback, TState state)
+   at Microsoft.AspNetCore.Components.Rendering.RendererSynchronizationContext.SendIfQuiescedOrElsePost[TState](Action`1 callback, TState state)
+   at Microsoft.AspNetCore.Components.Rendering.RendererSynchronizationContext.InvokeAsync(Func`1 asyncAction)
+   at Microsoft.AspNetCore.Builder.ServerRazorComponentsEndpointConventionBuilderExtensions.<>c__DisplayClass1_1.<<AddInteractiveServerRenderMode>b__1>d.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Builder.ServerRazorComponentsEndpointConventionBuilderExtensions.<>c__DisplayClass1_1.<AddInteractiveServerRenderMode>b__1(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Antiforgery.Internal.AntiforgeryMiddleware.InvokeAwaited(HttpContext context)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Antiforgery.Internal.AntiforgeryMiddleware.InvokeAwaited(HttpContext context)
+   at Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware.Invoke(HttpContext context)
+   at Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware.InvokeAsync(HttpContext context)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(Action action, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1 task, TResult result)
+   at Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware.GetScriptTag(String requestId, Boolean isHttps, String hostUrl)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(Action action, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1 task, TResult result)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(Action action, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1 task, TResult result)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(Action action, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1 task, TResult result)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(Action action, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1 task, TResult result)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(Action action, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1 task, TResult result)
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecuteFromThreadPool(Thread threadPoolThread)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+--- End of stack trace from previous location ---
+
+2025-06-14 08:29:08.763 +02:00 [WRN] Resilience event occurred. EventName: 'OnRetry', Source: 'default/(null)/Retry', Operation Key: 'null', Result: 'The operation didn't complete within the allowed timeout of '00:00:05'.'
+Polly.Timeout.TimeoutRejectedException: The operation didn't complete within the allowed timeout of '00:00:05'.
+ ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+ ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at ExchangeLibrary.Services.ExchangeRateRealtimeService.GetExchangeRateRealtime(String apiKey, String fromCurrency, String toCurrency, CancellationToken ct) in C:\Users\ErNaN\source\repos\ExchangeApp\ExchangeLibrary\Services\ExchangeRateRealtimeService.cs:line 28
+   at ExchangeLibrary.Services.ExchangeRateRealtimeServiceCached.<>c__DisplayClass3_0.<<GetExchangeRateRealtime>b__0>d.MoveNext() in C:\Users\ErNaN\source\repos\ExchangeApp\ExchangeLibrary\Services\ExchangeRateRealtimeServiceCached.cs:line 28
+--- End of stack trace from previous location ---
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.GetOrCreateAsync[TItem](IMemoryCache cache, Object key, Func`2 factory, MemoryCacheEntryOptions createOptions)
+   at ExchangeLibrary.Services.ExchangeRateRealtimeServiceCached.GetExchangeRateRealtime(String apiKey, String fromCurrency, String toCurrency, CancellationToken ct) in C:\Users\ErNaN\source\repos\ExchangeApp\ExchangeLibrary\Services\ExchangeRateRealtimeServiceCached.cs:line 21
+   at ExchangeLibrary.Services.ExchangeRateRealtimeServiceResilience.<>c__DisplayClass3_0.<<GetExchangeRateRealtime>b__0>d.MoveNext() in C:\Users\ErNaN\source\repos\ExchangeApp\ExchangeLibrary\Services\ExchangeRateRealtimeServiceResilience.cs:line 29
+--- End of stack trace from previous location ---
+   at Polly.ResiliencePipeline.<>c__10`1.<<ExecuteAsync>b__10_0>d.MoveNext()
+   --- End of inner exception stack trace ---
+   at Polly.Utils.ExceptionUtilities.TrySetStackTrace[T](T exception)
+   at Polly.Timeout.TimeoutResilienceStrategy.ExecuteCore[TResult,TState](Func`3 callback, ResilienceContext context, TState state)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Polly.Timeout.TimeoutResilienceStrategy.ExecuteCore[TResult,TState](Func`3 callback, ResilienceContext context, TState state)
+   at Polly.Utils.Pipeline.BridgeComponent.ExecuteCore[TResult,TState](Func`3 callback, ResilienceContext context, TState state)
+   at Polly.Utils.Pipeline.DelegatingComponent.<>c__9`2.<ExecuteComponent>b__9_0(ResilienceContext context, ValueTuple`3 state)
+   at Polly.Utils.Pipeline.BridgeComponent`1.<>c__4`2.<<ExecuteCore>b__4_0>d.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Polly.Utils.Pipeline.BridgeComponent`1.<>c__4`2.<ExecuteCore>b__4_0(ResilienceContext context, ValueTuple`2 state)
+   at Polly.Utils.StrategyHelper.ExecuteCallbackSafeAsync[TResult,TState](Func`3 callback, ResilienceContext context, TState state)
+   at Polly.Retry.RetryResilienceStrategy`1.ExecuteCore[TState](Func`3 callback, ResilienceContext context, TState state)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Polly.Retry.RetryResilienceStrategy`1.ExecuteCore[TState](Func`3 callback, ResilienceContext context, TState state)
+   at Polly.Utils.Pipeline.BridgeComponent`1.ExecuteCore[TResult,TState](Func`3 callback, ResilienceContext context, TState state)
+   at Polly.Utils.Pipeline.DelegatingComponent.ExecuteCore[TResult,TState](Func`3 callback, ResilienceContext context, TState state)
+   at Polly.Utils.Pipeline.DelegatingComponent.<>c__9`2.<ExecuteComponent>b__9_0(ResilienceContext context, ValueTuple`3 state)
+   at Polly.Utils.Pipeline.BridgeComponent`1.<>c__4`2.<<ExecuteCore>b__4_0>d.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Polly.Utils.Pipeline.BridgeComponent`1.<>c__4`2.<ExecuteCore>b__4_0(ResilienceContext context, ValueTuple`2 state)
+   at Polly.Utils.StrategyHelper.ExecuteCallbackSafeAsync[TResult,TState](Func`3 callback, ResilienceContext context, TState state)
+   at Polly.CircuitBreaker.CircuitBreakerResilienceStrategy`1.ExecuteCore[TState](Func`3 callback, ResilienceContext context, TState state)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Polly.CircuitBreaker.CircuitBreakerResilienceStrategy`1.ExecuteCore[TState](Func`3 callback, ResilienceContext context, TState state)
+   at Polly.Utils.Pipeline.BridgeComponent`1.ExecuteCore[TResult,TState](Func`3 callback, ResilienceContext context, TState state)
+   at Polly.Utils.Pipeline.DelegatingComponent.ExecuteCore[TResult,TState](Func`3 callback, ResilienceContext context, TState state)
+   at Polly.Utils.Pipeline.CompositeComponent.ExecuteCoreWithoutTelemetry[TResult,TState](Func`3 callback, ResilienceContext context, TState state)
+   at Polly.Utils.Pipeline.CompositeComponent.ExecuteCoreWithTelemetry[TResult,TState](Func`3 callback, ResilienceContext context, TState state)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Polly.Utils.Pipeline.CompositeComponent.ExecuteCoreWithTelemetry[TResult,TState](Func`3 callback, ResilienceContext context, TState state)
+   at Polly.Utils.Pipeline.CompositeComponent.ExecuteCore[TResult,TState](Func`3 callback, ResilienceContext context, TState state)
+   at Polly.Utils.Pipeline.ExecutionTrackingComponent.ExecuteCore[TResult,TState](Func`3 callback, ResilienceContext context, TState state)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Polly.Utils.Pipeline.ExecutionTrackingComponent.ExecuteCore[TResult,TState](Func`3 callback, ResilienceContext context, TState state)
+   at Polly.ResiliencePipeline.ExecuteAsync[TResult](Func`2 callback, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Polly.ResiliencePipeline.ExecuteAsync[TResult](Func`2 callback, CancellationToken cancellationToken)
+   at ExchangeLibrary.Services.ExchangeRateRealtimeServiceResilience.GetExchangeRateRealtime(String apiKey, String fromCurrency, String toCurrency, CancellationToken ct) in C:\Users\ErNaN\source\repos\ExchangeApp\ExchangeLibrary\Services\ExchangeRateRealtimeServiceResilience.cs:line 27
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at ExchangeLibrary.Services.ExchangeRateRealtimeServiceResilience.GetExchangeRateRealtime(String apiKey, String fromCurrency, String toCurrency, CancellationToken ct)
+   at ExchangeClient.Components.Pages.Exchange.Submit() in C:\Users\ErNaN\source\repos\ExchangeApp\ExchangeClient\Components\Pages\Exchange.razor:line 84
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at ExchangeClient.Components.Pages.Exchange.Submit()
+   at Microsoft.AspNetCore.Components.ComponentBase.Microsoft.AspNetCore.Components.IHandleEvent.HandleEventAsync(EventCallbackWorkItem callback, Object arg)
+   at Microsoft.AspNetCore.Components.EventCallback`1.InvokeAsync(TValue arg)
+   at Microsoft.AspNetCore.Components.Forms.EditForm.HandleSubmitAsync()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Components.Forms.EditForm.HandleSubmitAsync()
+   at Microsoft.AspNetCore.Components.ComponentBase.Microsoft.AspNetCore.Components.IHandleEvent.HandleEventAsync(EventCallbackWorkItem callback, Object arg)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.DispatchEventAsync(UInt64 eventHandlerId, EventFieldInfo fieldInfo, EventArgs eventArgs, Boolean waitForQuiescence)
+   at Microsoft.AspNetCore.Components.Endpoints.EndpointHtmlRenderer.DispatchSubmitEventAsync(String handlerName, Boolean& isBadRequest)
+   at Microsoft.AspNetCore.Components.Endpoints.RazorComponentEndpointInvoker.RenderComponentCore(HttpContext context)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Components.Endpoints.RazorComponentEndpointInvoker.RenderComponentCore(HttpContext context)
+   at Microsoft.AspNetCore.Components.Rendering.RendererSynchronizationContext.<>c.<<InvokeAsync>b__10_0>d.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Components.Rendering.RendererSynchronizationContext.<>c.<InvokeAsync>b__10_0(ValueTuple`2 state)
+   at Microsoft.AspNetCore.Components.Rendering.RendererSynchronizationContext.InvokeWithThisAsCurrentSyncCtxThenSetResult[TState](AsyncTaskMethodBuilder completion, Action`1 callback, TState state)
+   at Microsoft.AspNetCore.Components.Rendering.RendererSynchronizationContext.SendIfQuiescedOrElsePost[TState](Action`1 callback, TState state)
+   at Microsoft.AspNetCore.Components.Rendering.RendererSynchronizationContext.InvokeAsync(Func`1 asyncAction)
+   at Microsoft.AspNetCore.Builder.ServerRazorComponentsEndpointConventionBuilderExtensions.<>c__DisplayClass1_1.<<AddInteractiveServerRenderMode>b__1>d.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Builder.ServerRazorComponentsEndpointConventionBuilderExtensions.<>c__DisplayClass1_1.<AddInteractiveServerRenderMode>b__1(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Antiforgery.Internal.AntiforgeryMiddleware.InvokeAwaited(HttpContext context)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Antiforgery.Internal.AntiforgeryMiddleware.InvokeAwaited(HttpContext context)
+   at Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware.Invoke(HttpContext context)
+   at Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware.InvokeAsync(HttpContext context)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(Action action, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1 task, TResult result)
+   at Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware.GetScriptTag(String requestId, Boolean isHttps, String hostUrl)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(Action action, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1 task, TResult result)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(Action action, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1 task, TResult result)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(Action action, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1 task, TResult result)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(Action action, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1 task, TResult result)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(Action action, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1 task, TResult result)
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecuteFromThreadPool(Thread threadPoolThread)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+--- End of stack trace from previous location ---
+
+2025-06-14 08:29:13.560 +02:00 [INF] Exchange rate retrieved successfully: CNY->XRP
+2025-06-14 08:29:13.564 +02:00 [INF] Execution attempt. Source: 'default/(null)/Retry', Operation Key: 'null', Result: 'ExchangeLibrary.Models.ExchangeRateRealtimeResponse', Handled: 'false', Attempt: '1', Execution Time: 3134.1181ms
+2025-06-14 08:29:13.569 +02:00 [INF] Executed endpoint '/ (/)'
+2025-06-14 08:29:13.569 +02:00 [INF] HTTP POST / responded 200 in 20597.5511 ms
+2025-06-14 08:29:13.570 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7231/ - 200 null text/html; charset=utf-8 20599.8256ms
+2025-06-14 08:29:13.582 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7231/lib/bootstrap/dist/css/bootstrap.min.46ein0sx1k.css - null null
+2025-06-14 08:29:13.583 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-06-14 08:29:13.584 +02:00 [INF] The file lib/bootstrap/dist/css/bootstrap.min.46ein0sx1k.css was not modified
+2025-06-14 08:29:13.584 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-06-14 08:29:13.584 +02:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.46ein0sx1k.css responded 304 in 0.4657 ms
+2025-06-14 08:29:13.584 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7231/lib/bootstrap/dist/css/bootstrap.min.46ein0sx1k.css - 304 null text/css 1.7513ms
+2025-06-14 08:29:13.585 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7231/app.khy4lop6wu.css - null null
+2025-06-14 08:29:13.585 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7231/ExchangeClient.43zhw4esn1.styles.css - null null
+2025-06-14 08:29:13.585 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-06-14 08:29:13.585 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-06-14 08:29:13.586 +02:00 [INF] The file app.khy4lop6wu.css was not modified
+2025-06-14 08:29:13.586 +02:00 [INF] The file ExchangeClient.43zhw4esn1.styles.css was not modified
+2025-06-14 08:29:13.586 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-06-14 08:29:13.586 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-06-14 08:29:13.586 +02:00 [INF] HTTP GET /app.khy4lop6wu.css responded 304 in 0.4372 ms
+2025-06-14 08:29:13.586 +02:00 [INF] HTTP GET /ExchangeClient.43zhw4esn1.styles.css responded 304 in 0.4575 ms
+2025-06-14 08:29:13.586 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7231/app.khy4lop6wu.css - 304 null text/css 0.9177ms
+2025-06-14 08:29:13.586 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7231/ExchangeClient.43zhw4esn1.styles.css - 304 null text/css 0.9647ms
+2025-06-14 08:29:13.587 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7231/_framework/blazor.web.js - null null
+2025-06-14 08:29:13.588 +02:00 [INF] Executing endpoint 'Blazor web static files'
+2025-06-14 08:29:13.588 +02:00 [INF] The file /_framework/blazor.web.js was not modified
+2025-06-14 08:29:13.588 +02:00 [INF] Executed endpoint 'Blazor web static files'
+2025-06-14 08:29:13.589 +02:00 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 0.4051 ms
+2025-06-14 08:29:13.589 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7231/_framework/blazor.web.js - 304 null text/javascript 1.437ms
+2025-06-14 08:29:13.590 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7231/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-14 08:29:13.590 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7231/_vs/browserLink - null null
+2025-06-14 08:29:13.590 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7231/_framework/aspnetcore-browser-refresh.js - 200 16513 application/javascript; charset=utf-8 0.4127ms
+2025-06-14 08:29:13.597 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7231/_vs/browserLink - 200 null text/javascript; charset=UTF-8 6.7573ms
+2025-06-14 08:29:52.679 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7231/ - application/x-www-form-urlencoded 248
+2025-06-14 08:29:52.683 +02:00 [INF] Executing endpoint '/ (/)'
+2025-06-14 08:29:54.347 +02:00 [INF] Execution attempt. Source: 'default/(null)/Retry', Operation Key: 'null', Result: 'ExchangeLibrary.Models.ExchangeRateRealtimeResponse', Handled: 'false', Attempt: '0', Execution Time: 0.2653ms
+2025-06-14 08:30:00.282 +02:00 [INF] Executed endpoint '/ (/)'
+2025-06-14 08:30:00.282 +02:00 [INF] HTTP POST / responded 200 in 7598.9761 ms
+2025-06-14 08:30:00.282 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7231/ - 200 null text/html; charset=utf-8 7602.6454ms
+2025-06-14 08:30:00.295 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7231/lib/bootstrap/dist/css/bootstrap.min.46ein0sx1k.css - null null
+2025-06-14 08:30:00.295 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7231/app.khy4lop6wu.css - null null
+2025-06-14 08:30:00.295 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-06-14 08:30:00.295 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-06-14 08:30:00.296 +02:00 [INF] The file app.khy4lop6wu.css was not modified
+2025-06-14 08:30:00.296 +02:00 [INF] The file lib/bootstrap/dist/css/bootstrap.min.46ein0sx1k.css was not modified
+2025-06-14 08:30:00.296 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-06-14 08:30:00.296 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-06-14 08:30:00.296 +02:00 [INF] HTTP GET /app.khy4lop6wu.css responded 304 in 0.3673 ms
+2025-06-14 08:30:00.296 +02:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.46ein0sx1k.css responded 304 in 0.4206 ms
+2025-06-14 08:30:00.296 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7231/app.khy4lop6wu.css - 304 null text/css 0.7223ms
+2025-06-14 08:30:00.296 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7231/lib/bootstrap/dist/css/bootstrap.min.46ein0sx1k.css - 304 null text/css 1.0081ms
+2025-06-14 08:30:00.297 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7231/ExchangeClient.43zhw4esn1.styles.css - null null
+2025-06-14 08:30:00.298 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-06-14 08:30:00.298 +02:00 [INF] The file ExchangeClient.43zhw4esn1.styles.css was not modified
+2025-06-14 08:30:00.298 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-06-14 08:30:00.298 +02:00 [INF] HTTP GET /ExchangeClient.43zhw4esn1.styles.css responded 304 in 0.2833 ms
+2025-06-14 08:30:00.298 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7231/ExchangeClient.43zhw4esn1.styles.css - 304 null text/css 0.567ms
+2025-06-14 08:30:00.300 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7231/_framework/blazor.web.js - null null
+2025-06-14 08:30:00.300 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7231/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-14 08:30:00.300 +02:00 [INF] Executing endpoint 'Blazor web static files'
+2025-06-14 08:30:00.300 +02:00 [INF] The file /_framework/blazor.web.js was not modified
+2025-06-14 08:30:00.300 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7231/_framework/aspnetcore-browser-refresh.js - 200 16513 application/javascript; charset=utf-8 0.3505ms
+2025-06-14 08:30:00.300 +02:00 [INF] Executed endpoint 'Blazor web static files'
+2025-06-14 08:30:00.301 +02:00 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 0.3577 ms
+2025-06-14 08:30:00.301 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7231/_framework/blazor.web.js - 304 null text/javascript 0.6587ms
+2025-06-14 08:30:00.301 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7231/_vs/browserLink - null null
+2025-06-14 08:30:00.305 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7231/_vs/browserLink - 2025-06-14 09:15:32.869 +02:00 [INF] Now listening on: https://localhost:7231
+2025-06-14 09:15:32.885 +02:00 [INF] Now listening on: http://localhost:5214
+2025-06-14 09:15:32.903 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-14 09:15:32.903 +02:00 [INF] Hosting environment: Development
+2025-06-14 09:15:32.903 +02:00 [INF] Content root path: C:\Users\ErNaN\source\repos\ExchangeApp\ExchangeClient
+2025-06-14 09:15:35.625 +02:00 [INF] HTTP GET / responded 200 in 76.4439 ms
+2025-06-14 09:15:35.641 +02:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.46ein0sx1k.css responded 304 in 2.6963 ms
+2025-06-14 09:15:35.737 +02:00 [INF] HTTP GET /ExchangeClient.43zhw4esn1.styles.css responded 304 in 31.6297 ms
+2025-06-14 09:15:35.737 +02:00 [INF] HTTP GET /app.khy4lop6wu.css responded 304 in 31.6295 ms
+2025-06-14 09:15:35.739 +02:00 [INF] HTTP GET /_framework/blazor.web.js responded 304 in 64.5548 ms
+2025-06-14 09:15:43.547 +02:00 [WRN] Exchange rate request cancelled for CNY->GBP
+2025-06-14 09:15:43.594 +02:00 [ERR] Resilience event occurred. EventName: 'OnTimeout', Source: 'default/(null)/Timeout', Operation Key: 'null', Result: 'null'
+2025-06-14 09:15:43.595 +02:00 [WRN] Timeout: "00:00:05"
+2025-06-14 09:15:43.604 +02:00 [WRN] Execution attempt. Source: 'default/(null)/Retry', Operation Key: 'null', Result: 'The operation didn't complete within the allowed timeout of '00:00:05'.', Handled: 'true', Attempt: '0', Execution Time: 5074.6486ms
+Polly.Timeout.TimeoutRejectedException: The operation didn't complete within the allowed timeout of '00:00:05'.
+ ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at ExchangeLibrary.Services.ExchangeRateRealtimeService.GetExchangeRateRealtime(String apiKey, String fromCurrency, String toCurrency, CancellationToken ct) in C:\Users\ErNaN\source\repos\ExchangeApp\ExchangeLibrary\Services\ExchangeRateRealtimeService.cs:line 23
+   at ExchangeLibrary.Services.ExchangeRateRealtimeServiceCached.<>c__DisplayClass4_0.<<GetExchangeRateRealtime>b__0>d.MoveNext() in C:\Users\ErNaN\source\repos\ExchangeApp\ExchangeLibrary\Services\ExchangeRateRealtimeServiceCached.cs:line 33
+--- End of stack trace from previous location ---
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.GetOrCreateAsync[TItem](IMemoryCache cache, Object key, Func`2 factory, MemoryCacheEntryOptions createOptions)
+   at ExchangeLibrary.Services.ExchangeRateRealtimeServiceCached.GetExchangeRateRealtime(String apiKey, String fromCurrency, String toCurrency, CancellationToken ct) in C:\Users\ErNaN\source\repos\ExchangeApp\ExchangeLibrary\Services\ExchangeRateRealtimeServiceCached.cs:line 25
+   at ExchangeLibrary.Services.ExchangeRateRealtimeServiceResilience.<>c__DisplayClass3_0.<<GetExchangeRateRealtime>b__0>d.MoveNext() in C:\Users\ErNaN\source\repos\ExchangeApp\ExchangeLibrary\Services\ExchangeRateRealtimeServiceResilience.cs:line 24
+--- End of stack trace from previous location ---
+   at Polly.ResiliencePipeline.<>c__10`1.<<ExecuteAsync>b__10_0>d.MoveNext()
+   --- End of inner exception stack trace ---
+   at Polly.Utils.ExceptionUtilities.TrySetStackTrace[T](T exception)
+   at Polly.Timeout.TimeoutResilienceStrategy.ExecuteCore[TResult,TState](Func`3 callback, ResilienceContext context, TState state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(Action action, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1 task, TResult result)
+   at System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder`1.SetResult(TResult result)
+   at Polly.Utils.StrategyHelper.<ExecuteCallbackSafeAsync>g__AwaitTask|0_0[TResult,TState,T](ValueTask`1 task, Boolean continueOnCapturedContext)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(Action action, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1 task, TResult result)
+   at System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder`1.SetResult(TResult result)
+   at Polly.ResiliencePipeline.<>c__10`1.<<ExecuteAsync>b__10_0>d.MoveNext()
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+   at System.Threading.Tasks.AwaitTaskContinuation.System.Threading.IThreadPoolWorkItem.Execute()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+--- End of stack trace from previous location ---
+
+2025-06-14 09:15:43.614 +02:00 [WRN] Resilience event occurred. EventName: 'OnRetry', Source: 'default/(null)/Retry', Operation Key: 'null', Result: 'The operation didn't complete within the allowed timeout of '00:00:05'.'
+Polly.Timeout.TimeoutRejectedException: The operation didn't complete within the allowed timeout of '00:00:05'.
+ ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at ExchangeLibrary.Services.ExchangeRateRealtimeService.GetExchangeRateRealtime(String apiKey, String fromCurrency, String toCurrency, CancellationToken ct) in C:\Users\ErNaN\source\repos\ExchangeApp\ExchangeLibrary\Services\ExchangeRateRealtimeService.cs:line 23
+   at ExchangeLibrary.Services.ExchangeRateRealtimeServiceCached.<>c__DisplayClass4_0.<<GetExchangeRateRealtime>b__0>d.MoveNext() in C:\Users\ErNaN\source\repos\ExchangeApp\ExchangeLibrary\Services\ExchangeRateRealtimeServiceCached.cs:line 33
+--- End of stack trace from previous location ---
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.GetOrCreateAsync[TItem](IMemoryCache cache, Object key, Func`2 factory, MemoryCacheEntryOptions createOptions)
+   at ExchangeLibrary.Services.ExchangeRateRealtimeServiceCached.GetExchangeRateRealtime(String apiKey, String fromCurrency, String toCurrency, CancellationToken ct) in C:\Users\ErNaN\source\repos\ExchangeApp\ExchangeLibrary\Services\ExchangeRateRealtimeServiceCached.cs:line 25
+   at ExchangeLibrary.Services.ExchangeRateRealtimeServiceResilience.<>c__DisplayClass3_0.<<GetExchangeRateRealtime>b__0>d.MoveNext() in C:\Users\ErNaN\source\repos\ExchangeApp\ExchangeLibrary\Services\ExchangeRateRealtimeServiceResilience.cs:line 24
+--- End of stack trace from previous location ---
+   at Polly.ResiliencePipeline.<>c__10`1.<<ExecuteAsync>b__10_0>d.MoveNext()
+   --- End of inner exception stack trace ---
+   at Polly.Utils.ExceptionUtilities.TrySetStackTrace[T](T exception)
+   at Polly.Timeout.TimeoutResilienceStrategy.ExecuteCore[TResult,TState](Func`3 callback, ResilienceContext context, TState state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(Action action, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1 task, TResult result)
+   at System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder`1.SetResult(TResult result)
+   at Polly.Utils.StrategyHelper.<ExecuteCallbackSafeAsync>g__AwaitTask|0_0[TResult,TState,T](ValueTask`1 task, Boolean continueOnCapturedContext)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(Action action, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1 task, TResult result)
+   at System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder`1.SetResult(TResult result)
+   at Polly.ResiliencePipeline.<>c__10`1.<<ExecuteAsync>b__10_0>d.MoveNext()
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+   at System.Threading.Tasks.AwaitTaskContinuation.System.Threading.IThreadPoolWorkItem.Execute()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+--- End of stack trace from previous location ---
+
+2025-06-14 09:15:43.615 +02:00 [WRN] Retrying 0 due to The operation didn't complete within the allowed timeout of '00:00:05'.
+2025-06-14 09:15:51.312 +02:00 [WRN] Exchange rate request cancelled for CNY->GBP
+2025-06-14 09:15:51.357 +02:00 [ERR] Resilience event occurred. EventName: 'OnTimeout', Source: 'default/(null)/Timeout', Operation Key: 'null', Result: 'null'
+2025-06-14 09:15:51.357 +02:00 [WRN] Timeout: "00:00:05"
+2025-06-14 09:15:51.358 +02:00 [WRN] Execution attempt. Source: 'default/(null)/Retry', Operation Key: 'null', Result: 'The operation didn't complete within the allowed timeout of '00:00:05'.', Handled: 'true', Attempt: '1', Execution Time: 5058.7233ms
+Polly.Timeout.TimeoutRejectedException: The operation didn't complete within the allowed timeout of '00:00:05'.
+ ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at ExchangeLibrary.Services.ExchangeRateRealtimeService.GetExchangeRateRealtime(String apiKey, String fromCurrency, String toCurrency, CancellationToken ct) in C:\Users\ErNaN\source\repos\ExchangeApp\ExchangeLibrary\Services\ExchangeRateRealtimeService.cs:line 23
+   at ExchangeLibrary.Services.ExchangeRateRealtimeServiceCached.<>c__DisplayClass4_0.<<GetExchangeRateRealtime>b__0>d.MoveNext() in C:\Users\ErNaN\source\repos\ExchangeApp\ExchangeLibrary\Services\ExchangeRateRealtimeServiceCached.cs:line 33
+--- End of stack trace from previous location ---
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.GetOrCreateAsync[TItem](IMemoryCache cache, Object key, Func`2 factory, MemoryCacheEntryOptions createOptions)
+   at ExchangeLibrary.Services.ExchangeRateRealtimeServiceCached.GetExchangeRateRealtime(String apiKey, String fromCurrency, String toCurrency, CancellationToken ct) in C:\Users\ErNaN\source\repos\ExchangeApp\ExchangeLibrary\Services\ExchangeRateRealtimeServiceCached.cs:line 25
+   at ExchangeLibrary.Services.ExchangeRateRealtimeServiceResilience.<>c__DisplayClass3_0.<<GetExchangeRateRealtime>b__0>d.MoveNext() in C:\Users\ErNaN\source\repos\ExchangeApp\ExchangeLibrary\Services\ExchangeRateRealtimeServiceResilience.cs:line 24
+--- End of stack trace from previous location ---
+   at Polly.ResiliencePipeline.<>c__10`1.<<ExecuteAsync>b__10_0>d.MoveNext()
+   --- End of inner exception stack trace ---
+   at Polly.Utils.ExceptionUtilities.TrySetStackTrace[T](T exception)
+   at Polly.Timeout.TimeoutResilienceStrategy.ExecuteCore[TResult,TState](Func`3 callback, ResilienceContext context, TState state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(Action action, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1 task, TResult result)
+   at System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder`1.SetResult(TResult result)
+   at Polly.Utils.StrategyHelper.<ExecuteCallbackSafeAsync>g__AwaitTask|0_0[TResult,TState,T](ValueTask`1 task, Boolean continueOnCapturedContext)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(Action action, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1 task, TResult result)
+   at System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder`1.SetResult(TResult result)
+   at Polly.ResiliencePipeline.<>c__10`1.<<ExecuteAsync>b__10_0>d.MoveNext()
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(Action action, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task.TrySetCanceled(CancellationToken tokenToRecord, Object cancellationException)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetException(Exception exception, Task`1& taskField)
+   at ExchangeLibrary.Services.ExchangeRateRealtimeServiceResilience.<>c__DisplayClass3_0.<<GetExchangeRateRealtime>b__0>d.MoveNext() in C:\Users\ErNaN\source\repos\ExchangeApp\ExchangeLibrary\Services\ExchangeRateRealtimeServiceResilience.cs:line 24
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(Action action, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task.TrySetCanceled(CancellationToken tokenToRecord, Object cancellationException)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetException(Exception exception, Task`1& taskField)
+   at ExchangeLibrary.Services.ExchangeRateRealtimeServiceCached.GetExchangeRateRealtime(String apiKey, String fromCurrency, String toCurrency, CancellationToken ct) in C:\Users\ErNaN\source\repos\ExchangeApp\ExchangeLibrary\Services\ExchangeRateRealtimeServiceCached.cs:line 25
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(Action action, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task.TrySetCanceled(CancellationToken tokenToRecord, Object cancellationException)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetException(Exception exception, Task`1& taskField)
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.GetOrCreateAsync[TItem](IMemoryCache cache, Object key, Func`2 factory, MemoryCacheEntryOptions createOptions)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(Action action, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task.TrySetCanceled(CancellationToken tokenToRecord, Object cancellationException)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetException(Exception exception, Task`1& taskField)
+   at ExchangeLibrary.Services.ExchangeRateRealtimeServiceCached.<>c__DisplayClass4_0.<<GetExchangeRateRealtime>b__0>d.MoveNext() in C:\Users\ErNaN\source\repos\ExchangeApp\ExchangeLibrary\Services\ExchangeRateRealtimeServiceCached.cs:line 33
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(Action action, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task.TrySetCanceled(CancellationToken tokenToRecord, Object cancellationException)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetException(Exception exception, Task`1& taskField)
+   at ExchangeLibrary.Services.ExchangeRateRealtimeService.GetExchangeRateRealtime(String apiKey, String fromCurrency, String toCurrency, CancellationToken ct) in C:\Users\ErNaN\source\repos\ExchangeApp\ExchangeLibrary\Services\ExchangeRateRealtimeService.cs:line 23
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+   at System.Threading.Tasks.AwaitTaskContinuation.System.Threading.IThreadPoolWorkItem.Execute()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+--- End of stack trace from previous location ---
+
+2025-06-14 09:15:51.359 +02:00 [WRN] Resilience event occurred. EventName: 'OnRetry', Source: 'default/(null)/Retry', Operation Key: 'null', Result: 'The operation didn't complete within the allowed timeout of '00:00:05'.'
+Polly.Timeout.TimeoutRejectedException: The operation didn't complete within the allowed timeout of '00:00:05'.
+ ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at ExchangeLibrary.Services.ExchangeRateRealtimeService.GetExchangeRateRealtime(String apiKey, String fromCurrency, String toCurrency, CancellationToken ct) in C:\Users\ErNaN\source\repos\ExchangeApp\ExchangeLibrary\Services\ExchangeRateRealtimeService.cs:line 23
+   at ExchangeLibrary.Services.ExchangeRateRealtimeServiceCached.<>c__DisplayClass4_0.<<GetExchangeRateRealtime>b__0>d.MoveNext() in C:\Users\ErNaN\source\repos\ExchangeApp\ExchangeLibrary\Services\ExchangeRateRealtimeServiceCached.cs:line 33
+--- End of stack trace from previous location ---
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.GetOrCreateAsync[TItem](IMemoryCache cache, Object key, Func`2 factory, MemoryCacheEntryOptions createOptions)
+   at ExchangeLibrary.Services.ExchangeRateRealtimeServiceCached.GetExchangeRateRealtime(String apiKey, String fromCurrency, String toCurrency, CancellationToken ct) in C:\Users\ErNaN\source\repos\ExchangeApp\ExchangeLibrary\Services\ExchangeRateRealtimeServiceCached.cs:line 25
+   at ExchangeLibrary.Services.ExchangeRateRealtimeServiceResilience.<>c__DisplayClass3_0.<<GetExchangeRateRealtime>b__0>d.MoveNext() in C:\Users\ErNaN\source\repos\ExchangeApp\ExchangeLibrary\Services\ExchangeRateRealtimeServiceResilience.cs:line 24
+--- End of stack trace from previous location ---
+   at Polly.ResiliencePipeline.<>c__10`1.<<ExecuteAsync>b__10_0>d.MoveNext()
+   --- End of inner exception stack trace ---
+   at Polly.Utils.ExceptionUtilities.TrySetStackTrace[T](T exception)
+   at Polly.Timeout.TimeoutResilienceStrategy.ExecuteCore[TResult,TState](Func`3 callback, ResilienceContext context, TState state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(Action action, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1 task, TResult result)
+   at System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder`1.SetResult(TResult result)
+   at Polly.Utils.StrategyHelper.<ExecuteCallbackSafeAsync>g__AwaitTask|0_0[TResult,TState,T](ValueTask`1 task, Boolean continueOnCapturedContext)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(Action action, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1 task, TResult result)
+   at System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder`1.SetResult(TResult result)
+   at Polly.ResiliencePipeline.<>c__10`1.<<ExecuteAsync>b__10_0>d.MoveNext()
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(Action action, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task.TrySetCanceled(CancellationToken tokenToRecord, Object cancellationException)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetException(Exception exception, Task`1& taskField)
+   at ExchangeLibrary.Services.ExchangeRateRealtimeServiceResilience.<>c__DisplayClass3_0.<<GetExchangeRateRealtime>b__0>d.MoveNext() in C:\Users\ErNaN\source\repos\ExchangeApp\ExchangeLibrary\Services\ExchangeRateRealtimeServiceResilience.cs:line 24
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(Action action, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task.TrySetCanceled(CancellationToken tokenToRecord, Object cancellationException)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetException(Exception exception, Task`1& taskField)
+   at ExchangeLibrary.Services.ExchangeRateRealtimeServiceCached.GetExchangeRateRealtime(String apiKey, String fromCurrency, String toCurrency, CancellationToken ct) in C:\Users\ErNaN\source\repos\ExchangeApp\ExchangeLibrary\Services\ExchangeRateRealtimeServiceCached.cs:line 25
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(Action action, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task.TrySetCanceled(CancellationToken tokenToRecord, Object cancellationException)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetException(Exception exception, Task`1& taskField)
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.GetOrCreateAsync[TItem](IMemoryCache cache, Object key, Func`2 factory, MemoryCacheEntryOptions createOptions)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(Action action, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task.TrySetCanceled(CancellationToken tokenToRecord, Object cancellationException)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetException(Exception exception, Task`1& taskField)
+   at ExchangeLibrary.Services.ExchangeRateRealtimeServiceCached.<>c__DisplayClass4_0.<<GetExchangeRateRealtime>b__0>d.MoveNext() in C:\Users\ErNaN\source\repos\ExchangeApp\ExchangeLibrary\Services\ExchangeRateRealtimeServiceCached.cs:line 33
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(Action action, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task.TrySetCanceled(CancellationToken tokenToRecord, Object cancellationException)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetException(Exception exception, Task`1& taskField)
+   at ExchangeLibrary.Services.ExchangeRateRealtimeService.GetExchangeRateRealtime(String apiKey, String fromCurrency, String toCurrency, CancellationToken ct) in C:\Users\ErNaN\source\repos\ExchangeApp\ExchangeLibrary\Services\ExchangeRateRealtimeService.cs:line 23
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+   at System.Threading.Tasks.AwaitTaskContinuation.System.Threading.IThreadPoolWorkItem.Execute()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+--- End of stack trace from previous location ---
+
+2025-06-14 09:15:51.360 +02:00 [WRN] Retrying 1 due to The operation didn't complete within the allowed timeout of '00:00:05'.
+2025-06-14 09:15:58.634 +02:00 [WRN] Exchange rate request cancelled for CNY->GBP
+2025-06-14 09:15:58.680 +02:00 [ERR] Resilience event occurred. EventName: 'OnTimeout', Source: 'default/(null)/Timeout', Operation Key: 'null', Result: 'null'
+2025-06-14 09:15:58.681 +02:00 [WRN] Timeout: "00:00:05"
+2025-06-14 09:15:58.681 +02:00 [ERR] Execution attempt. Source: 'default/(null)/Retry', Operation Key: 'null', Result: 'The operation didn't complete within the allowed timeout of '00:00:05'.', Handled: 'true', Attempt: '2', Execution Time: 5054.4384ms
+Polly.Timeout.TimeoutRejectedException: The operation didn't complete within the allowed timeout of '00:00:05'.
+ ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at ExchangeLibrary.Services.ExchangeRateRealtimeService.GetExchangeRateRealtime(String apiKey, String fromCurrency, String toCurrency, CancellationToken ct) in C:\Users\ErNaN\source\repos\ExchangeApp\ExchangeLibrary\Services\ExchangeRateRealtimeService.cs:line 23
+   at ExchangeLibrary.Services.ExchangeRateRealtimeServiceCached.<>c__DisplayClass4_0.<<GetExchangeRateRealtime>b__0>d.MoveNext() in C:\Users\ErNaN\source\repos\ExchangeApp\ExchangeLibrary\Services\ExchangeRateRealtimeServiceCached.cs:line 33
+--- End of stack trace from previous location ---
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.GetOrCreateAsync[TItem](IMemoryCache cache, Object key, Func`2 factory, MemoryCacheEntryOptions createOptions)
+   at ExchangeLibrary.Services.ExchangeRateRealtimeServiceCached.GetExchangeRateRealtime(String apiKey, String fromCurrency, String toCurrency, CancellationToken ct) in C:\Users\ErNaN\source\repos\ExchangeApp\ExchangeLibrary\Services\ExchangeRateRealtimeServiceCached.cs:line 25
+   at ExchangeLibrary.Services.ExchangeRateRealtimeServiceResilience.<>c__DisplayClass3_0.<<GetExchangeRateRealtime>b__0>d.MoveNext() in C:\Users\ErNaN\source\repos\ExchangeApp\ExchangeLibrary\Services\ExchangeRateRealtimeServiceResilience.cs:line 24
+--- End of stack trace from previous location ---
+   at Polly.ResiliencePipeline.<>c__10`1.<<ExecuteAsync>b__10_0>d.MoveNext()
+   --- End of inner exception stack trace ---
+   at Polly.Utils.ExceptionUtilities.TrySetStackTrace[T](T exception)
+   at Polly.Timeout.TimeoutResilienceStrategy.ExecuteCore[TResult,TState](Func`3 callback, ResilienceContext context, TState state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(Action action, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1 task, TResult result)
+   at System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder`1.SetResult(TResult result)
+   at Polly.Utils.StrategyHelper.<ExecuteCallbackSafeAsync>g__AwaitTask|0_0[TResult,TState,T](ValueTask`1 task, Boolean continueOnCapturedContext)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(Action action, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1 task, TResult result)
+   at System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder`1.SetResult(TResult result)
+   at Polly.ResiliencePipeline.<>c__10`1.<<ExecuteAsync>b__10_0>d.MoveNext()
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(Action action, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task.TrySetCanceled(CancellationToken tokenToRecord, Object cancellationException)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetException(Exception exception, Task`1& taskField)
+   at ExchangeLibrary.Services.ExchangeRateRealtimeServiceResilience.<>c__DisplayClass3_0.<<GetExchangeRateRealtime>b__0>d.MoveNext() in C:\Users\ErNaN\source\repos\ExchangeApp\ExchangeLibrary\Services\ExchangeRateRealtimeServiceResilience.cs:line 24
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(Action action, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task.TrySetCanceled(CancellationToken tokenToRecord, Object cancellationException)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetException(Exception exception, Task`1& taskField)
+   at ExchangeLibrary.Services.ExchangeRateRealtimeServiceCached.GetExchangeRateRealtime(String apiKey, String fromCurrency, String toCurrency, CancellationToken ct) in C:\Users\ErNaN\source\repos\ExchangeApp\ExchangeLibrary\Services\ExchangeRateRealtimeServiceCached.cs:line 25
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(Action action, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task.TrySetCanceled(CancellationToken tokenToRecord, Object cancellationException)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetException(Exception exception, Task`1& taskField)
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.GetOrCreateAsync[TItem](IMemoryCache cache, Object key, Func`2 factory, MemoryCacheEntryOptions createOptions)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(Action action, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task.TrySetCanceled(CancellationToken tokenToRecord, Object cancellationException)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetException(Exception exception, Task`1& taskField)
+   at ExchangeLibrary.Services.ExchangeRateRealtimeServiceCached.<>c__DisplayClass4_0.<<GetExchangeRateRealtime>b__0>d.MoveNext() in C:\Users\ErNaN\source\repos\ExchangeApp\ExchangeLibrary\Services\ExchangeRateRealtimeServiceCached.cs:line 33
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(Action action, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task.TrySetCanceled(CancellationToken 
