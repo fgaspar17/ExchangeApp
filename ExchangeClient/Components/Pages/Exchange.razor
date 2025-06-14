@@ -81,7 +81,7 @@
         _cts = new CancellationTokenSource();
         try
         {
-            exchangeRate = await realtimeService.GetExchangeRateRealtime(apiKey, Model.FromCurrency, Model.ToCurrency, _cts.Token);
+            exchangeRate = await realtimeService.GetExchangeRateRealtimeAsync(apiKey, Model.FromCurrency, Model.ToCurrency, _cts.Token);
             errorMessage = string.Empty;
         }
         catch (Exception ex)

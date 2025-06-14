@@ -15,13 +15,13 @@ public class ExchangeRateRealtimeServiceResilience : IExchangeRateRealtimeServic
         _pipelineProvider = pipelineProvider;
     }
 
-    public async Task<ExchangeRateRealtimeResponse?> GetExchangeRateRealtime(string apiKey,
+    public async Task<ExchangeRateRealtimeResponse?> GetExchangeRateRealtimeAsync(string apiKey,
         string fromCurrency, string toCurrency, CancellationToken ct)
     {
         var pipeline = _pipelineProvider.GetPipeline("default");
         var result = await pipeline.ExecuteAsync<ExchangeRateRealtimeResponse?>(async (token) =>
         {
-            return await _service.GetExchangeRateRealtime(apiKey, fromCurrency, toCurrency, token);
+            return await _service.GetExchangeRateRealtimeAsync(apiKey, fromCurrency, toCurrency, token);
         }, ct);
 
         return result;

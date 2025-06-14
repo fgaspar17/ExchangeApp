@@ -15,12 +15,11 @@ public class ExchangeRateRealtimeService : IExchangeRateRealtimeService
         _logger = logger;
     }
 
-    public async Task<ExchangeRateRealtimeResponse?> GetExchangeRateRealtime(string apiKey, 
+    public async Task<ExchangeRateRealtimeResponse?> GetExchangeRateRealtimeAsync(string apiKey, 
         string fromCurrency, string toCurrency, CancellationToken ct)
     {
         try
         {
-            await Task.Delay(TimeSpan.FromSeconds(10), ct);
             var path = $"query?function=CURRENCY_EXCHANGE_RATE&from_currency={fromCurrency}&to_currency={toCurrency}&apikey={apiKey}";
             var request = new HttpRequestMessage(HttpMethod.Get, path);
 

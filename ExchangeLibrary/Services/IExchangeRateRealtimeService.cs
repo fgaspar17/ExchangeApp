@@ -5,6 +5,6 @@ namespace ExchangeLibrary.Services;
 
 public interface IExchangeRateRealtimeService
 {
-    Task<ExchangeRateRealtimeResponse?> GetExchangeRateRealtime(string apiKey, 
+    Task<ExchangeRateRealtimeResponse?> GetExchangeRateRealtimeAsync(string apiKey, 
         string fromCurrency, string toCurrency, CancellationToken ct);
 }

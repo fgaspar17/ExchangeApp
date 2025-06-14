@@ -18,7 +18,7 @@ public class ExchangeRateRealtimeServiceCached : IExchangeRateRealtimeService
         _logger = logger;
     }
 
-    public async Task<ExchangeRateRealtimeResponse?> GetExchangeRateRealtime(string apiKey,
+    public async Task<ExchangeRateRealtimeResponse?> GetExchangeRateRealtimeAsync(string apiKey,
         string fromCurrency, string toCurrency, CancellationToken ct)
     {
         string cacheKey = fromCurrency + toCurrency;
@@ -30,7 +30,7 @@ public class ExchangeRateRealtimeServiceCached : IExchangeRateRealtimeService
                 entryOptions.SetAbsoluteExpiration(TimeSpan.FromMinutes(5));
                 entryOptions.SetPriority(CacheItemPriority.High);
                 entryOptions.SetSize(10);
-                return await _service.GetExchangeRateRealtime(apiKey, fromCurrency, toCurrency, ct);
+                return await _service.GetExchangeRateRealtimeAsync(apiKey, fromCurrency, toCurrency, ct);
             });
     }
 }
