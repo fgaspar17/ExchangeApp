@@ -1,4 +1,5 @@
 ﻿using System.Net.Http.Json;
+using System.Text.Json;
 using ExchangeLibrary.Models;
 using Microsoft.Extensions.Logging;
 
@@ -49,6 +50,11 @@ public class ExchangeRateRealtimeService : IExchangeRateRealtimeService
         {
             _logger.LogWarning("Exchange rate request cancelled for {From}->{To}", fromCurrency, toCurrency);
             throw;
+        }
+        catch (JsonException ex)
+        {
+            _logger.LogWarning(ex, "Invalid JSON response received from Exchange Rate API for {From}->{To}", fromCurrency, toCurrency);
+            return null;
         }
         catch (Exception ex)
         {

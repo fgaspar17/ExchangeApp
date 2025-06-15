@@ -1,4 +1,5 @@
-﻿using ExchangeLibrary.Services;
+﻿using System.Net;
+using ExchangeLibrary.Services;
 using Microsoft.Extensions.Logging;
 using Moq;
 
@@ -52,5 +53,107 @@ public class ExchangeRateRealtimeServiceTests
 
         // Asserts
         Assert.Equal(result.RealtimeCurrencyExchangeRate.ExchangeRate, "0.9253");
+    }
+
+    [Fact]
+    public async Task GetExchangeRateRealtimeAsync_ShouldReturnNull_WhenStatusCodeIsNotSuccess()
+    {
+        // Arrange
+        var mockedHandler = new MockHandler(request =>
+        {
+            return new HttpResponseMessage
+            {
+                StatusCode = HttpStatusCode.InternalServerError,
+                Content = new StringContent("{}")
+            };
+        });
+
+        var client = new HttpClient(mockedHandler)
+        {
+            BaseAddress = new Uri("https://example.com/")
+        };
+        var ct = CancellationToken.None;
+        var service = new ExchangeRateRealtimeService(client, _logger);
+
+        // Act
+        var result = await service.GetExchangeRateRealtimeAsync("apikey", "USD", "EUR", ct);
+
+        // Assert
+        Assert.Null(result?.RealtimeCurrencyExchangeRate);
+    }
+
+    [Fact]
+    public async Task GetExchangeRateRealtimeAsync_ShouldReturnNull_WhenResponseBodyIsEmpty()
+    {
+        // Arrange
+        var mockedHandler = new MockHandler(request =>
+        {
+            return new HttpResponseMessage
+            {
+                StatusCode = HttpStatusCode.OK,
+                Content = new StringContent("") // Empty body
+            };
+        });
+
+        var client = new HttpClient(mockedHandler)
+        {
+            BaseAddress = new Uri("https://example.com/")
+        };
+        var ct = CancellationToken.None;
+        var service = new ExchangeRateRealtimeService(client, _logger);
+
+        // Act
+        var result = await service.GetExchangeRateRealtimeAsync("apikey", "USD", "EUR", ct);
+
+        // Assert
+        Assert.Null(result?.RealtimeCurrencyExchangeRate);
+    }
+
+    [Fact]
+    public async Task GetExchangeRateRealtimeAsync_ShouldThrowOperationCanceledException_WhenCancelled()
+    {
+        // Arrange
+        var mockedHandler = new MockHandler(request =>
+        {
+            Task.Delay(1000); // Simulate delay
+            return new HttpResponseMessage(HttpStatusCode.OK);
+        });
+
+        var client = new HttpClient(mockedHandler)
+        {
+            BaseAddress = new Uri("https://example.com/")
+        };
+
+        using var cts = new CancellationTokenSource();
+        cts.Cancel(); // Cancel immediately
+
+        var service = new ExchangeRateRealtimeService(client, _logger);
+
+        // Act & Assert
+        await Assert.ThrowsAnyAsync<OperationCanceledException>(() =>
+            service.GetExchangeRateRealtimeAsync("apikey", "USD", "EUR", cts.Token));
+    }
+
+    [Fact]
+    public async Task GetExchangeRateRealtimeAsync_ShouldThrowException_WhenHttpClientFails()
+    {
+        // Arrange
+        var mockedHandler = new MockHandler(request =>
+        {
+            throw new HttpRequestException("Network error");
+        });
+
+        var client = new HttpClient(mockedHandler)
+        {
+            BaseAddress = new Uri("https://example.com/")
+        };
+        var ct = CancellationToken.None;
+        var service = new ExchangeRateRealtimeService(client, _logger);
+
+        // Act & Assert
+        var ex = await Assert.ThrowsAsync<HttpRequestException>(() =>
+            service.GetExchangeRateRealtimeAsync("apikey", "USD", "EUR", ct));
+
+        Assert.Contains("Network error", ex.Message);
     }
 }
