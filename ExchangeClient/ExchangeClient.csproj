@@ -20,7 +20,7 @@
 
   <ItemGroup>
     <Content Update="wwwroot\lib\bootstrap\dist\js\bootstrap.js">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Update="wwwroot\lib\bootstrap\dist\js\bootstrap.min.js">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

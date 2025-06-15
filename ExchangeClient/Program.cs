@@ -1,5 +1,6 @@
 using System.Net.Http.Headers;
 using ExchangeClient.Components;
+using ExchangeClient.HttpClientHandlers;
 using ExchangeLibrary.Services;
 using Microsoft.Extensions.Caching.Memory;
 using Polly;
@@ -79,6 +80,8 @@ options.SizeLimit = 1_000);
 
 builder.Configuration.GetSection("AlphaVantageApiKey");
 
+builder.Services.AddScoped<CacheHandler>();
+
 builder.Services.AddHttpClient();
 builder.Services.AddHttpClient("alpha-vantage", c =>
 {
@@ -94,6 +97,8 @@ builder.Services.AddHttpClient<ExchangeRateRealtimeService>(c =>
       .Accept
       .Add(new MediaTypeWithQualityHeaderValue("application/json"));
 });
+// If the library doesn't contain a cache mechanism, we could implement cache from a DelegateHandler
+//.AddHttpMessageHandler<CacheHandler>();
 
 builder.Services.AddTransient<ExchangeRateRealtimeServiceCached>(sp =>
 {
@@ -104,9 +109,9 @@ builder.Services.AddTransient<ExchangeRateRealtimeServiceCached>(sp =>
 });
 builder.Services.AddTransient<IExchangeRateRealtimeService>(sp =>
 {
-    var cached = sp.GetRequiredService<ExchangeRateRealtimeServiceCached>();
+    var innerService = sp.GetRequiredService<ExchangeRateRealtimeService>();
     var pipelineProvider = sp.GetRequiredService<ResiliencePipelineProvider<string>>();
-    return new ExchangeRateRealtimeServiceResilience(cached, pipelineProvider);
+    return new ExchangeRateRealtimeServiceResilience(innerService, pipelineProvider);
 });
 
 
